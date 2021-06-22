@@ -1,0 +1,5 @@
+/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main2.dir
+/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main1.dir
+/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/C__Prime.dir
