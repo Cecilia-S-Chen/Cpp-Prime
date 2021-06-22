@@ -8,7 +8,15 @@ using namespace std;
 /*      struct
  struct存在的意义是因为C++为何和C有向后兼容性。因为C只有struct。所以C++在创造class的同时，也保留了struct。
 struct从技术上来讲 struct和class只是默认可见度不同而已。
+<<<<<<< HEAD
 struct默认的是public， class默认的是private
+=======
+1、struct默认的是public， class默认的是private
+2、class定义的派生类是私有继承，struct定义的派生类是公有继承，和父类类型无关
+ 栗子：class Base {}
+    struct D1 : Base {} // 默认公有继承
+    class D2 : Base {} // 默认私有继承
+>>>>>>> cpp prime notes
 
 
 如何区分使用struct和class？

@@ -35,6 +35,17 @@ class Bulk_quote : public Quote {
 };
 ```
 
+* 防止继承
+1. 在类后加final，表示该类不能被继承
+2. 在虚函数后加final，表示该虚函数不能被override
+
+```c++
+class NoDerived final {}; // 表示NoDerived不能被继承
+class Base {};
+class Last final : public Base {}; // 表示Last不能被继承
+```
+
+
 ###动态绑定
 1、定义：父类指针即能指向父类，也能指向子类，在运行时确定所使用的函数版本，称为动态绑定/运行时绑定
 

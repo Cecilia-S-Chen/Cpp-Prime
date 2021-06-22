@@ -42,7 +42,7 @@ public:
 ```
 
 ##Defualt与Delete区别
-1. default可以在声明或者定义时使用，delete在第一次声明就要使用，避免被其他成员误用 
+1. default可以在声明或者定义时使用，delete在**第一次声明**就要使用，避免被其他成员误用 
 2. default只能用于有合成函数的成员，delete可以用于任何函数
 
 

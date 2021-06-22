@@ -131,6 +131,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named main7
+
+# Build rule for target.
+main7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main7
+.PHONY : main7
+
+# fast build rule for target.
+main7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/build
+.PHONY : main7/fast
+
+#=============================================================================
+# Target rules for targets named main6
+
+# Build rule for target.
+main6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main6
+.PHONY : main6
+
+# fast build rule for target.
+main6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/build
+.PHONY : main6/fast
+
+#=============================================================================
+# Target rules for targets named main5
+
+# Build rule for target.
+main5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main5
+.PHONY : main5
+
+# fast build rule for target.
+main5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/build
+.PHONY : main5/fast
+
+#=============================================================================
+# Target rules for targets named main4
+
+# Build rule for target.
+main4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main4
+.PHONY : main4
+
+# fast build rule for target.
+main4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/build
+.PHONY : main4/fast
+
+#=============================================================================
+# Target rules for targets named main3
+
+# Build rule for target.
+main3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main3
+.PHONY : main3
+
+# fast build rule for target.
+main3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main3.dir/build.make CMakeFiles/main3.dir/build
+.PHONY : main3/fast
+
+#=============================================================================
 # Target rules for targets named main2
 
 # Build rule for target.
@@ -195,6 +260,117 @@ Copy_control/Copy/Copy_Assignment_Operator.s: Copy_control/Copy/Copy_Assignment_
 Copy_control/Copy/Copy_Assignment_Operator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/Copy_control/Copy/Copy_Assignment_Operator.cpp.s
 .PHONY : Copy_control/Copy/Copy_Assignment_Operator.cpp.s
+
+Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.o: Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o
+
+.PHONY : Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.o
+
+# target to build an object file
+Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o
+.PHONY : Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o
+
+Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.i: Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.i
+
+.PHONY : Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.i
+
+# target to preprocess a source file
+Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.i
+.PHONY : Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.i
+
+Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.s: Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s
+
+.PHONY : Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.s
+
+# target to generate assembly for a file
+Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s
+.PHONY : Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s
+
+Dynamic_Memory/allocator.o: Dynamic_Memory/allocator.cpp.o
+
+.PHONY : Dynamic_Memory/allocator.o
+
+# target to build an object file
+Dynamic_Memory/allocator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/Dynamic_Memory/allocator.cpp.o
+.PHONY : Dynamic_Memory/allocator.cpp.o
+
+Dynamic_Memory/allocator.i: Dynamic_Memory/allocator.cpp.i
+
+.PHONY : Dynamic_Memory/allocator.i
+
+# target to preprocess a source file
+Dynamic_Memory/allocator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/Dynamic_Memory/allocator.cpp.i
+.PHONY : Dynamic_Memory/allocator.cpp.i
+
+Dynamic_Memory/allocator.s: Dynamic_Memory/allocator.cpp.s
+
+.PHONY : Dynamic_Memory/allocator.s
+
+# target to generate assembly for a file
+Dynamic_Memory/allocator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/Dynamic_Memory/allocator.cpp.s
+.PHONY : Dynamic_Memory/allocator.cpp.s
+
+OOP/Inheritance/Scope.o: OOP/Inheritance/Scope.cpp.o
+
+.PHONY : OOP/Inheritance/Scope.o
+
+# target to build an object file
+OOP/Inheritance/Scope.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/OOP/Inheritance/Scope.cpp.o
+.PHONY : OOP/Inheritance/Scope.cpp.o
+
+OOP/Inheritance/Scope.i: OOP/Inheritance/Scope.cpp.i
+
+.PHONY : OOP/Inheritance/Scope.i
+
+# target to preprocess a source file
+OOP/Inheritance/Scope.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/OOP/Inheritance/Scope.cpp.i
+.PHONY : OOP/Inheritance/Scope.cpp.i
+
+OOP/Inheritance/Scope.s: OOP/Inheritance/Scope.cpp.s
+
+.PHONY : OOP/Inheritance/Scope.s
+
+# target to generate assembly for a file
+OOP/Inheritance/Scope.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/OOP/Inheritance/Scope.cpp.s
+.PHONY : OOP/Inheritance/Scope.cpp.s
+
+OOP/Inheritance/Visability.o: OOP/Inheritance/Visability.cpp.o
+
+.PHONY : OOP/Inheritance/Visability.o
+
+# target to build an object file
+OOP/Inheritance/Visability.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main3.dir/build.make CMakeFiles/main3.dir/OOP/Inheritance/Visability.cpp.o
+.PHONY : OOP/Inheritance/Visability.cpp.o
+
+OOP/Inheritance/Visability.i: OOP/Inheritance/Visability.cpp.i
+
+.PHONY : OOP/Inheritance/Visability.i
+
+# target to preprocess a source file
+OOP/Inheritance/Visability.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main3.dir/build.make CMakeFiles/main3.dir/OOP/Inheritance/Visability.cpp.i
+.PHONY : OOP/Inheritance/Visability.cpp.i
+
+OOP/Inheritance/Visability.s: OOP/Inheritance/Visability.cpp.s
+
+.PHONY : OOP/Inheritance/Visability.s
+
+# target to generate assembly for a file
+OOP/Inheritance/Visability.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main3.dir/build.make CMakeFiles/main3.dir/OOP/Inheritance/Visability.cpp.s
+.PHONY : OOP/Inheritance/Visability.cpp.s
 
 OOP/Inheritance/test.o: OOP/Inheritance/test.cpp.o
 
@@ -261,9 +437,26 @@ help:
 	@echo "... C__Prime"
 	@echo "... main1"
 	@echo "... main2"
+	@echo "... main3"
+	@echo "... main4"
+	@echo "... main5"
+	@echo "... main6"
+	@echo "... main7"
 	@echo "... Copy_control/Copy/Copy_Assignment_Operator.o"
 	@echo "... Copy_control/Copy/Copy_Assignment_Operator.i"
 	@echo "... Copy_control/Copy/Copy_Assignment_Operator.s"
+	@echo "... Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.o"
+	@echo "... Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.i"
+	@echo "... Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.s"
+	@echo "... Dynamic_Memory/allocator.o"
+	@echo "... Dynamic_Memory/allocator.i"
+	@echo "... Dynamic_Memory/allocator.s"
+	@echo "... OOP/Inheritance/Scope.o"
+	@echo "... OOP/Inheritance/Scope.i"
+	@echo "... OOP/Inheritance/Scope.s"
+	@echo "... OOP/Inheritance/Visability.o"
+	@echo "... OOP/Inheritance/Visability.i"
+	@echo "... OOP/Inheritance/Visability.s"
 	@echo "... OOP/Inheritance/test.o"
 	@echo "... OOP/Inheritance/test.i"
 	@echo "... OOP/Inheritance/test.s"

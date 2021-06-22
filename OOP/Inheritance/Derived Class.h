@@ -41,5 +41,12 @@ public:
 private:
     size_t min_qty = 0;
     double discount= 0.0;
-
 };
+
+
+
+/*
+ * 静态成员：
+ *  1、基类中的静态成员是唯一的，被基类和所有的派生类共享
+ *  2、基类遵循访问控制规则：public\protected\private
+ */
