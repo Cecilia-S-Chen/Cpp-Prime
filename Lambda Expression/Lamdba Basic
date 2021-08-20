@@ -23,7 +23,9 @@ function body：函数体
 其中：
 
 格式1声明了const类型的表达式，这种类型的表达式不能修改捕获列表中的值。
-格式2省略了返回值类型，但编译器可以根据以下规则推断出Lambda表达式的返回类型： （1）：如果function body中存在return语句，则该Lambda表达式的返回类型由return语句的返回类型确定； （2）：如果function body中没有return语句，则返回值为void类型。
+格式2省略了返回值类型，但编译器可以根据以下规则推断出Lambda表达式的返回类型： 
+    （1）：如果function body中存在return语句，则该Lambda表达式的返回类型由return语句的返回类型确定； 
+    （2）：如果function body中没有return语句，则返回值为void类型。
 格式3中省略了参数列表，类似普通函数中的无参函数。
 
 */
@@ -54,4 +56,13 @@ int main()
     for (int it : lbvec)
         cout << it << ' ';
         
+        
+    /*
+    修改捕获变量
+    使用mutable关键字,说明表达式体内的代码可以修改值捕获的变量
+    */
+    int a = 123;
+    auto f = [a]()mutable { cout << ++a; }; // 不会报错
+    cout << a << endl; // 输出：123
+    f(); // 输出：124
 }
