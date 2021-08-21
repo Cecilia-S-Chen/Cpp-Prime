@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /Users/shuochen/C++Prime/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -97,6 +86,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -129,6 +129,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named main10
+
+# Build rule for target.
+main10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main10
+.PHONY : main10
+
+# fast build rule for target.
+main10/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main10.dir/build.make CMakeFiles/main10.dir/build
+.PHONY : main10/fast
 
 #=============================================================================
 # Target rules for targets named main7
@@ -207,6 +220,19 @@ main3: cmake_check_build_system
 main3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main3.dir/build.make CMakeFiles/main3.dir/build
 .PHONY : main3/fast
+
+#=============================================================================
+# Target rules for targets named main9
+
+# Build rule for target.
+main9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main9
+.PHONY : main9
+
+# fast build rule for target.
+main9/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/build
+.PHONY : main9/fast
 
 #=============================================================================
 # Target rules for targets named main2
@@ -331,6 +357,33 @@ Copy_control/Move/Rvalue_Reference.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main8.dir/build.make CMakeFiles/main8.dir/Copy_control/Move/Rvalue_Reference.cpp.s
 .PHONY : Copy_control/Move/Rvalue_Reference.cpp.s
 
+Copy_control/Move/Rvalue_Reference_for_Class_Member.o: Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o
+
+.PHONY : Copy_control/Move/Rvalue_Reference_for_Class_Member.o
+
+# target to build an object file
+Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o
+.PHONY : Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o
+
+Copy_control/Move/Rvalue_Reference_for_Class_Member.i: Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.i
+
+.PHONY : Copy_control/Move/Rvalue_Reference_for_Class_Member.i
+
+# target to preprocess a source file
+Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.i
+.PHONY : Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.i
+
+Copy_control/Move/Rvalue_Reference_for_Class_Member.s: Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.s
+
+.PHONY : Copy_control/Move/Rvalue_Reference_for_Class_Member.s
+
+# target to generate assembly for a file
+Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.s
+.PHONY : Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.s
+
 Dynamic_Memory/allocator.o: Dynamic_Memory/allocator.cpp.o
 
 .PHONY : Dynamic_Memory/allocator.o
@@ -357,6 +410,33 @@ Dynamic_Memory/allocator.s: Dynamic_Memory/allocator.cpp.s
 Dynamic_Memory/allocator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/Dynamic_Memory/allocator.cpp.s
 .PHONY : Dynamic_Memory/allocator.cpp.s
+
+OOP/Copy_Control/Copy_Control_And_Inheritance.o: OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o
+
+.PHONY : OOP/Copy_Control/Copy_Control_And_Inheritance.o
+
+# target to build an object file
+OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main10.dir/build.make CMakeFiles/main10.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o
+.PHONY : OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o
+
+OOP/Copy_Control/Copy_Control_And_Inheritance.i: OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.i
+
+.PHONY : OOP/Copy_Control/Copy_Control_And_Inheritance.i
+
+# target to preprocess a source file
+OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main10.dir/build.make CMakeFiles/main10.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.i
+.PHONY : OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.i
+
+OOP/Copy_Control/Copy_Control_And_Inheritance.s: OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.s
+
+.PHONY : OOP/Copy_Control/Copy_Control_And_Inheritance.s
+
+# target to generate assembly for a file
+OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main10.dir/build.make CMakeFiles/main10.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.s
+.PHONY : OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.s
 
 OOP/Inheritance/Scope.o: OOP/Inheritance/Scope.cpp.o
 
@@ -476,6 +556,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... C__Prime"
 	@echo "... main1"
+	@echo "... main10"
 	@echo "... main2"
 	@echo "... main3"
 	@echo "... main4"
@@ -483,6 +564,7 @@ help:
 	@echo "... main6"
 	@echo "... main7"
 	@echo "... main8"
+	@echo "... main9"
 	@echo "... Copy_control/Copy/Copy_Assignment_Operator.o"
 	@echo "... Copy_control/Copy/Copy_Assignment_Operator.i"
 	@echo "... Copy_control/Copy/Copy_Assignment_Operator.s"
@@ -492,9 +574,15 @@ help:
 	@echo "... Copy_control/Move/Rvalue_Reference.o"
 	@echo "... Copy_control/Move/Rvalue_Reference.i"
 	@echo "... Copy_control/Move/Rvalue_Reference.s"
+	@echo "... Copy_control/Move/Rvalue_Reference_for_Class_Member.o"
+	@echo "... Copy_control/Move/Rvalue_Reference_for_Class_Member.i"
+	@echo "... Copy_control/Move/Rvalue_Reference_for_Class_Member.s"
 	@echo "... Dynamic_Memory/allocator.o"
 	@echo "... Dynamic_Memory/allocator.i"
 	@echo "... Dynamic_Memory/allocator.s"
+	@echo "... OOP/Copy_Control/Copy_Control_And_Inheritance.o"
+	@echo "... OOP/Copy_Control/Copy_Control_And_Inheritance.i"
+	@echo "... OOP/Copy_Control/Copy_Control_And_Inheritance.s"
 	@echo "... OOP/Inheritance/Scope.o"
 	@echo "... OOP/Inheritance/Scope.i"
 	@echo "... OOP/Inheritance/Scope.s"
