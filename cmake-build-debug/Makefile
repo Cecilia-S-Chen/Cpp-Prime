@@ -170,6 +170,19 @@ main5/fast:
 .PHONY : main5/fast
 
 #=============================================================================
+# Target rules for targets named main8
+
+# Build rule for target.
+main8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main8
+.PHONY : main8
+
+# fast build rule for target.
+main8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main8.dir/build.make CMakeFiles/main8.dir/build
+.PHONY : main8/fast
+
+#=============================================================================
 # Target rules for targets named main4
 
 # Build rule for target.
@@ -290,6 +303,33 @@ Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s
 .PHONY : Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s
+
+Copy_control/Move/Rvalue_Reference.o: Copy_control/Move/Rvalue_Reference.cpp.o
+
+.PHONY : Copy_control/Move/Rvalue_Reference.o
+
+# target to build an object file
+Copy_control/Move/Rvalue_Reference.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main8.dir/build.make CMakeFiles/main8.dir/Copy_control/Move/Rvalue_Reference.cpp.o
+.PHONY : Copy_control/Move/Rvalue_Reference.cpp.o
+
+Copy_control/Move/Rvalue_Reference.i: Copy_control/Move/Rvalue_Reference.cpp.i
+
+.PHONY : Copy_control/Move/Rvalue_Reference.i
+
+# target to preprocess a source file
+Copy_control/Move/Rvalue_Reference.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main8.dir/build.make CMakeFiles/main8.dir/Copy_control/Move/Rvalue_Reference.cpp.i
+.PHONY : Copy_control/Move/Rvalue_Reference.cpp.i
+
+Copy_control/Move/Rvalue_Reference.s: Copy_control/Move/Rvalue_Reference.cpp.s
+
+.PHONY : Copy_control/Move/Rvalue_Reference.s
+
+# target to generate assembly for a file
+Copy_control/Move/Rvalue_Reference.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main8.dir/build.make CMakeFiles/main8.dir/Copy_control/Move/Rvalue_Reference.cpp.s
+.PHONY : Copy_control/Move/Rvalue_Reference.cpp.s
 
 Dynamic_Memory/allocator.o: Dynamic_Memory/allocator.cpp.o
 
@@ -442,12 +482,16 @@ help:
 	@echo "... main5"
 	@echo "... main6"
 	@echo "... main7"
+	@echo "... main8"
 	@echo "... Copy_control/Copy/Copy_Assignment_Operator.o"
 	@echo "... Copy_control/Copy/Copy_Assignment_Operator.i"
 	@echo "... Copy_control/Copy/Copy_Assignment_Operator.s"
 	@echo "... Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.o"
 	@echo "... Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.i"
 	@echo "... Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.s"
+	@echo "... Copy_control/Move/Rvalue_Reference.o"
+	@echo "... Copy_control/Move/Rvalue_Reference.i"
+	@echo "... Copy_control/Move/Rvalue_Reference.s"
 	@echo "... Dynamic_Memory/allocator.o"
 	@echo "... Dynamic_Memory/allocator.i"
 	@echo "... Dynamic_Memory/allocator.s"

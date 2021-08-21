@@ -1,5 +1,6 @@
 #include <iostream>
 #include <memory>
+#include <utility>
 using namespace std;
 
 /*
@@ -101,4 +102,39 @@ StrVec& StrVec::operator=(const StrVec &rhs)
     element = copy.first;
     first_free = cap = copy.second;
     return *this;
+}
+
+/*
+ * 移动构造函数和std：：move
+ * 1、移动构造函数：
+ *  （1）定义：将资源从给定对象移动到正在创建的对象中，而不是拷贝
+ *  （2）核心：！！！！！！！！！
+ *          拷贝构造函数，开辟一份新内存，将旧内存中的内容拷贝到新内存中。实际上，存储资源的内存变化了
+ *          移动构造函数，将旧内存的控制权从原有对象转移到新对象上。实际上，存储资源的内存没有变化，控制内存的对象变化了
+ *  （3）操作方法：移动构造函数是拷贝指向资源的指针，而不是拷贝资源
+ * 2、move：
+ *  （1）使用目的：表示调用移动构造函数，而非拷贝构造函数
+ *  （2）tip：使用时直接调用std：：move，而非提供using声明，再使用move;
+ *          move在utility头文件中
+ *
+ */
+
+void StrVec::reallocate()
+{
+    //1、确定新内存大小（一般为旧内存的两倍）
+    auto newcapacity = size() ? 2 * size() : 1;
+    //2、分配新内存
+    auto newdata = alloc.allocate(newcapacity);
+    //3、将数据从旧内存移动到新内存
+    auto dest = newdata; //指向新数组的第一位
+    auto elem = element;// 指向旧数组的第一位
+    for (size_t i; i < size(); i++) {
+        alloc.construct(dest++, std::move(*elem++)); //适用move函数调用移动构造函数，而非拷贝构造函数
+    }
+    //4、移动完资源，马上释放旧内存，避免内存泄漏
+    free();
+    //5、更新指针
+    element = newdata;
+    first_free = dest;
+    cap = newdata + newcapacity;
 }
