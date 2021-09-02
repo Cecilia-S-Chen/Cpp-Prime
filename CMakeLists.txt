@@ -14,3 +14,4 @@ add_executable(main7 "Copy control/Dynamic Memory Management/Dynamic Memory Mana
 add_executable(main8 "Copy control/Move/Rvalue Reference.cpp")
 add_executable(main9 "Copy control/Move/Rvalue Reference for Class Member.cpp")
 add_executable(main10 "OOP/Copy Control/Copy Control And Inheritance.cpp")
+add_executable(main11 "Dynamic Memory/Shared Ptr And New.cpp")

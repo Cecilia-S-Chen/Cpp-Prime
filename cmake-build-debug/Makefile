@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named main11
+
+# Build rule for target.
+main11: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main11
+.PHONY : main11
+
+# fast build rule for target.
+main11/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main11.dir/build.make CMakeFiles/main11.dir/build
+.PHONY : main11/fast
+
+#=============================================================================
 # Target rules for targets named main10
 
 # Build rule for target.
@@ -384,6 +397,33 @@ Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.s
 .PHONY : Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.s
 
+Dynamic_Memory/Shared_Ptr_And_New.o: Dynamic_Memory/Shared_Ptr_And_New.cpp.o
+
+.PHONY : Dynamic_Memory/Shared_Ptr_And_New.o
+
+# target to build an object file
+Dynamic_Memory/Shared_Ptr_And_New.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main11.dir/build.make CMakeFiles/main11.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.o
+.PHONY : Dynamic_Memory/Shared_Ptr_And_New.cpp.o
+
+Dynamic_Memory/Shared_Ptr_And_New.i: Dynamic_Memory/Shared_Ptr_And_New.cpp.i
+
+.PHONY : Dynamic_Memory/Shared_Ptr_And_New.i
+
+# target to preprocess a source file
+Dynamic_Memory/Shared_Ptr_And_New.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main11.dir/build.make CMakeFiles/main11.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.i
+.PHONY : Dynamic_Memory/Shared_Ptr_And_New.cpp.i
+
+Dynamic_Memory/Shared_Ptr_And_New.s: Dynamic_Memory/Shared_Ptr_And_New.cpp.s
+
+.PHONY : Dynamic_Memory/Shared_Ptr_And_New.s
+
+# target to generate assembly for a file
+Dynamic_Memory/Shared_Ptr_And_New.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main11.dir/build.make CMakeFiles/main11.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.s
+.PHONY : Dynamic_Memory/Shared_Ptr_And_New.cpp.s
+
 Dynamic_Memory/allocator.o: Dynamic_Memory/allocator.cpp.o
 
 .PHONY : Dynamic_Memory/allocator.o
@@ -557,6 +597,7 @@ help:
 	@echo "... C__Prime"
 	@echo "... main1"
 	@echo "... main10"
+	@echo "... main11"
 	@echo "... main2"
 	@echo "... main3"
 	@echo "... main4"
@@ -577,6 +618,9 @@ help:
 	@echo "... Copy_control/Move/Rvalue_Reference_for_Class_Member.o"
 	@echo "... Copy_control/Move/Rvalue_Reference_for_Class_Member.i"
 	@echo "... Copy_control/Move/Rvalue_Reference_for_Class_Member.s"
+	@echo "... Dynamic_Memory/Shared_Ptr_And_New.o"
+	@echo "... Dynamic_Memory/Shared_Ptr_And_New.i"
+	@echo "... Dynamic_Memory/Shared_Ptr_And_New.s"
 	@echo "... Dynamic_Memory/allocator.o"
 	@echo "... Dynamic_Memory/allocator.i"
 	@echo "... Dynamic_Memory/allocator.s"
