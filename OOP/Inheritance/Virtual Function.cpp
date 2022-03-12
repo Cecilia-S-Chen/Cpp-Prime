@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-<<<<<<< HEAD
+
 /*
  * 静态绑定：
  * 核心：在编译时就能确定函数
@@ -13,7 +13,7 @@ using namespace std;
  *      派生类可以继承，并override基类全部的虚函数
  *      派生类只能调用public和protected虚函数，不能调用private虚函数
  */
-=======
+
 
 /*
  * 虚函数
@@ -69,4 +69,4 @@ int main() {
      */
     item->Quote::net_price()
 }
->>>>>>> cpp prime notes
+

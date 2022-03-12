@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named main12
+
+# Build rule for target.
+main12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main12
+.PHONY : main12
+
+# fast build rule for target.
+main12/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main12.dir/build.make CMakeFiles/main12.dir/build
+.PHONY : main12/fast
+
+#=============================================================================
 # Target rules for targets named main11
 
 # Build rule for target.
@@ -285,6 +298,33 @@ C__Prime: cmake_check_build_system
 C__Prime/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__Prime.dir/build.make CMakeFiles/C__Prime.dir/build
 .PHONY : C__Prime/fast
+
+Class.o: Class.cpp.o
+
+.PHONY : Class.o
+
+# target to build an object file
+Class.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main12.dir/build.make CMakeFiles/main12.dir/Class.cpp.o
+.PHONY : Class.cpp.o
+
+Class.i: Class.cpp.i
+
+.PHONY : Class.i
+
+# target to preprocess a source file
+Class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main12.dir/build.make CMakeFiles/main12.dir/Class.cpp.i
+.PHONY : Class.cpp.i
+
+Class.s: Class.cpp.s
+
+.PHONY : Class.s
+
+# target to generate assembly for a file
+Class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main12.dir/build.make CMakeFiles/main12.dir/Class.cpp.s
+.PHONY : Class.cpp.s
 
 Copy_control/Copy/Copy_Assignment_Operator.o: Copy_control/Copy/Copy_Assignment_Operator.cpp.o
 
@@ -598,6 +638,7 @@ help:
 	@echo "... main1"
 	@echo "... main10"
 	@echo "... main11"
+	@echo "... main12"
 	@echo "... main2"
 	@echo "... main3"
 	@echo "... main4"
@@ -606,6 +647,9 @@ help:
 	@echo "... main7"
 	@echo "... main8"
 	@echo "... main9"
+	@echo "... Class.o"
+	@echo "... Class.i"
+	@echo "... Class.s"
 	@echo "... Copy_control/Copy/Copy_Assignment_Operator.o"
 	@echo "... Copy_control/Copy/Copy_Assignment_Operator.i"
 	@echo "... Copy_control/Copy/Copy_Assignment_Operator.s"
