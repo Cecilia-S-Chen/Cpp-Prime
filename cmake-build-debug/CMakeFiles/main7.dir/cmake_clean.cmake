@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main7.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o"
+  "CMakeFiles/main7.dir/Flow_Control/Condition_and_Branch.cpp.o"
+  "CMakeFiles/main7.dir/Flow_Control/Flow_Control.cpp.o"
+  "CMakeFiles/main7.dir/Flow_Control/Input_and_Output.cpp.o"
+  "CMakeFiles/main7.dir/Flow_Control/Loop.cpp.o"
   "main7"
   "main7.pdb"
 )

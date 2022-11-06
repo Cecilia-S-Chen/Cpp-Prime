@@ -77,30 +77,75 @@ include CMakeFiles/main4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main4.dir/flags.make
 
-CMakeFiles/main4.dir/OOP/Inheritance/Scope.cpp.o: CMakeFiles/main4.dir/flags.make
-CMakeFiles/main4.dir/OOP/Inheritance/Scope.cpp.o: ../OOP/Inheritance/Scope.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main4.dir/OOP/Inheritance/Scope.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main4.dir/OOP/Inheritance/Scope.cpp.o -c /Users/shuochen/C++Prime/OOP/Inheritance/Scope.cpp
+CMakeFiles/main4.dir/Copy_control/Move/Move.cpp.o: CMakeFiles/main4.dir/flags.make
+CMakeFiles/main4.dir/Copy_control/Move/Move.cpp.o: ../Copy\ control/Move/Move.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main4.dir/Copy_control/Move/Move.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main4.dir/Copy_control/Move/Move.cpp.o -c "/Users/shuochen/C++Prime/Copy control/Move/Move.cpp"
 
-CMakeFiles/main4.dir/OOP/Inheritance/Scope.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main4.dir/OOP/Inheritance/Scope.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shuochen/C++Prime/OOP/Inheritance/Scope.cpp > CMakeFiles/main4.dir/OOP/Inheritance/Scope.cpp.i
+CMakeFiles/main4.dir/Copy_control/Move/Move.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main4.dir/Copy_control/Move/Move.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Copy control/Move/Move.cpp" > CMakeFiles/main4.dir/Copy_control/Move/Move.cpp.i
 
-CMakeFiles/main4.dir/OOP/Inheritance/Scope.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main4.dir/OOP/Inheritance/Scope.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shuochen/C++Prime/OOP/Inheritance/Scope.cpp -o CMakeFiles/main4.dir/OOP/Inheritance/Scope.cpp.s
+CMakeFiles/main4.dir/Copy_control/Move/Move.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main4.dir/Copy_control/Move/Move.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Copy control/Move/Move.cpp" -o CMakeFiles/main4.dir/Copy_control/Move/Move.cpp.s
+
+CMakeFiles/main4.dir/Copy_control/Move/Move_Iterator.cpp.o: CMakeFiles/main4.dir/flags.make
+CMakeFiles/main4.dir/Copy_control/Move/Move_Iterator.cpp.o: ../Copy\ control/Move/Move\ Iterator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main4.dir/Copy_control/Move/Move_Iterator.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main4.dir/Copy_control/Move/Move_Iterator.cpp.o -c "/Users/shuochen/C++Prime/Copy control/Move/Move Iterator.cpp"
+
+CMakeFiles/main4.dir/Copy_control/Move/Move_Iterator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main4.dir/Copy_control/Move/Move_Iterator.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Copy control/Move/Move Iterator.cpp" > CMakeFiles/main4.dir/Copy_control/Move/Move_Iterator.cpp.i
+
+CMakeFiles/main4.dir/Copy_control/Move/Move_Iterator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main4.dir/Copy_control/Move/Move_Iterator.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Copy control/Move/Move Iterator.cpp" -o CMakeFiles/main4.dir/Copy_control/Move/Move_Iterator.cpp.s
+
+CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference.cpp.o: CMakeFiles/main4.dir/flags.make
+CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference.cpp.o: ../Copy\ control/Move/Rvalue\ Reference.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference.cpp.o -c "/Users/shuochen/C++Prime/Copy control/Move/Rvalue Reference.cpp"
+
+CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Copy control/Move/Rvalue Reference.cpp" > CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference.cpp.i
+
+CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Copy control/Move/Rvalue Reference.cpp" -o CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference.cpp.s
+
+CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o: CMakeFiles/main4.dir/flags.make
+CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o: ../Copy\ control/Move/Rvalue\ Reference\ for\ Class\ Member.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o -c "/Users/shuochen/C++Prime/Copy control/Move/Rvalue Reference for Class Member.cpp"
+
+CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Copy control/Move/Rvalue Reference for Class Member.cpp" > CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.i
+
+CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Copy control/Move/Rvalue Reference for Class Member.cpp" -o CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.s
 
 # Object files for target main4
 main4_OBJECTS = \
-"CMakeFiles/main4.dir/OOP/Inheritance/Scope.cpp.o"
+"CMakeFiles/main4.dir/Copy_control/Move/Move.cpp.o" \
+"CMakeFiles/main4.dir/Copy_control/Move/Move_Iterator.cpp.o" \
+"CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference.cpp.o" \
+"CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o"
 
 # External object files for target main4
 main4_EXTERNAL_OBJECTS =
 
-main4: CMakeFiles/main4.dir/OOP/Inheritance/Scope.cpp.o
+main4: CMakeFiles/main4.dir/Copy_control/Move/Move.cpp.o
+main4: CMakeFiles/main4.dir/Copy_control/Move/Move_Iterator.cpp.o
+main4: CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference.cpp.o
+main4: CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o
 main4: CMakeFiles/main4.dir/build.make
 main4: CMakeFiles/main4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

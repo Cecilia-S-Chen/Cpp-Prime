@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /Users/shuochen/C++Prime/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -97,6 +86,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -129,6 +129,32 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named main14
+
+# Build rule for target.
+main14: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main14
+.PHONY : main14
+
+# fast build rule for target.
+main14/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main14.dir/build.make CMakeFiles/main14.dir/build
+.PHONY : main14/fast
+
+#=============================================================================
+# Target rules for targets named main13
+
+# Build rule for target.
+main13: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main13
+.PHONY : main13
+
+# fast build rule for target.
+main13/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main13.dir/build.make CMakeFiles/main13.dir/build
+.PHONY : main13/fast
 
 #=============================================================================
 # Target rules for targets named main12
@@ -209,6 +235,19 @@ main5/fast:
 .PHONY : main5/fast
 
 #=============================================================================
+# Target rules for targets named main0
+
+# Build rule for target.
+main0: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main0
+.PHONY : main0
+
+# fast build rule for target.
+main0/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main0.dir/build.make CMakeFiles/main0.dir/build
+.PHONY : main0/fast
+
+#=============================================================================
 # Target rules for targets named main8
 
 # Build rule for target.
@@ -274,6 +313,19 @@ main2/fast:
 .PHONY : main2/fast
 
 #=============================================================================
+# Target rules for targets named main15
+
+# Build rule for target.
+main15: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main15
+.PHONY : main15
+
+# fast build rule for target.
+main15/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main15.dir/build.make CMakeFiles/main15.dir/build
+.PHONY : main15/fast
+
+#=============================================================================
 # Target rules for targets named main1
 
 # Build rule for target.
@@ -286,45 +338,113 @@ main1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/build
 .PHONY : main1/fast
 
-#=============================================================================
-# Target rules for targets named C__Prime
+C++_basic_theory/Const/Const.o: C++_basic_theory/Const/Const.cpp.o
 
-# Build rule for target.
-C__Prime: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 C__Prime
-.PHONY : C__Prime
-
-# fast build rule for target.
-C__Prime/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__Prime.dir/build.make CMakeFiles/C__Prime.dir/build
-.PHONY : C__Prime/fast
-
-Class.o: Class.cpp.o
-
-.PHONY : Class.o
+.PHONY : C++_basic_theory/Const/Const.o
 
 # target to build an object file
-Class.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main12.dir/build.make CMakeFiles/main12.dir/Class.cpp.o
-.PHONY : Class.cpp.o
+C++_basic_theory/Const/Const.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main0.dir/build.make CMakeFiles/main0.dir/C++_basic_theory/Const/Const.cpp.o
+.PHONY : C++_basic_theory/Const/Const.cpp.o
 
-Class.i: Class.cpp.i
+C++_basic_theory/Const/Const.i: C++_basic_theory/Const/Const.cpp.i
 
-.PHONY : Class.i
+.PHONY : C++_basic_theory/Const/Const.i
 
 # target to preprocess a source file
-Class.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main12.dir/build.make CMakeFiles/main12.dir/Class.cpp.i
-.PHONY : Class.cpp.i
+C++_basic_theory/Const/Const.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main0.dir/build.make CMakeFiles/main0.dir/C++_basic_theory/Const/Const.cpp.i
+.PHONY : C++_basic_theory/Const/Const.cpp.i
 
-Class.s: Class.cpp.s
+C++_basic_theory/Const/Const.s: C++_basic_theory/Const/Const.cpp.s
 
-.PHONY : Class.s
+.PHONY : C++_basic_theory/Const/Const.s
 
 # target to generate assembly for a file
-Class.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main12.dir/build.make CMakeFiles/main12.dir/Class.cpp.s
-.PHONY : Class.cpp.s
+C++_basic_theory/Const/Const.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main0.dir/build.make CMakeFiles/main0.dir/C++_basic_theory/Const/Const.cpp.s
+.PHONY : C++_basic_theory/Const/Const.cpp.s
+
+C++_basic_theory/Pointer/Pointer.o: C++_basic_theory/Pointer/Pointer.cpp.o
+
+.PHONY : C++_basic_theory/Pointer/Pointer.o
+
+# target to build an object file
+C++_basic_theory/Pointer/Pointer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main0.dir/build.make CMakeFiles/main0.dir/C++_basic_theory/Pointer/Pointer.cpp.o
+.PHONY : C++_basic_theory/Pointer/Pointer.cpp.o
+
+C++_basic_theory/Pointer/Pointer.i: C++_basic_theory/Pointer/Pointer.cpp.i
+
+.PHONY : C++_basic_theory/Pointer/Pointer.i
+
+# target to preprocess a source file
+C++_basic_theory/Pointer/Pointer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main0.dir/build.make CMakeFiles/main0.dir/C++_basic_theory/Pointer/Pointer.cpp.i
+.PHONY : C++_basic_theory/Pointer/Pointer.cpp.i
+
+C++_basic_theory/Pointer/Pointer.s: C++_basic_theory/Pointer/Pointer.cpp.s
+
+.PHONY : C++_basic_theory/Pointer/Pointer.s
+
+# target to generate assembly for a file
+C++_basic_theory/Pointer/Pointer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main0.dir/build.make CMakeFiles/main0.dir/C++_basic_theory/Pointer/Pointer.cpp.s
+.PHONY : C++_basic_theory/Pointer/Pointer.cpp.s
+
+C++_basic_theory/Reference/Reference.o: C++_basic_theory/Reference/Reference.cpp.o
+
+.PHONY : C++_basic_theory/Reference/Reference.o
+
+# target to build an object file
+C++_basic_theory/Reference/Reference.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main0.dir/build.make CMakeFiles/main0.dir/C++_basic_theory/Reference/Reference.cpp.o
+.PHONY : C++_basic_theory/Reference/Reference.cpp.o
+
+C++_basic_theory/Reference/Reference.i: C++_basic_theory/Reference/Reference.cpp.i
+
+.PHONY : C++_basic_theory/Reference/Reference.i
+
+# target to preprocess a source file
+C++_basic_theory/Reference/Reference.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main0.dir/build.make CMakeFiles/main0.dir/C++_basic_theory/Reference/Reference.cpp.i
+.PHONY : C++_basic_theory/Reference/Reference.cpp.i
+
+C++_basic_theory/Reference/Reference.s: C++_basic_theory/Reference/Reference.cpp.s
+
+.PHONY : C++_basic_theory/Reference/Reference.s
+
+# target to generate assembly for a file
+C++_basic_theory/Reference/Reference.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main0.dir/build.make CMakeFiles/main0.dir/C++_basic_theory/Reference/Reference.cpp.s
+.PHONY : C++_basic_theory/Reference/Reference.cpp.s
+
+C++_basic_theory/Type/Type.o: C++_basic_theory/Type/Type.cpp.o
+
+.PHONY : C++_basic_theory/Type/Type.o
+
+# target to build an object file
+C++_basic_theory/Type/Type.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main0.dir/build.make CMakeFiles/main0.dir/C++_basic_theory/Type/Type.cpp.o
+.PHONY : C++_basic_theory/Type/Type.cpp.o
+
+C++_basic_theory/Type/Type.i: C++_basic_theory/Type/Type.cpp.i
+
+.PHONY : C++_basic_theory/Type/Type.i
+
+# target to preprocess a source file
+C++_basic_theory/Type/Type.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main0.dir/build.make CMakeFiles/main0.dir/C++_basic_theory/Type/Type.cpp.i
+.PHONY : C++_basic_theory/Type/Type.cpp.i
+
+C++_basic_theory/Type/Type.s: C++_basic_theory/Type/Type.cpp.s
+
+.PHONY : C++_basic_theory/Type/Type.s
+
+# target to generate assembly for a file
+C++_basic_theory/Type/Type.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main0.dir/build.make CMakeFiles/main0.dir/C++_basic_theory/Type/Type.cpp.s
+.PHONY : C++_basic_theory/Type/Type.cpp.s
 
 Copy_control/Copy/Copy_Assignment_Operator.o: Copy_control/Copy/Copy_Assignment_Operator.cpp.o
 
@@ -353,14 +473,175 @@ Copy_control/Copy/Copy_Assignment_Operator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/Copy_control/Copy/Copy_Assignment_Operator.cpp.s
 .PHONY : Copy_control/Copy/Copy_Assignment_Operator.cpp.s
 
+Copy_control/Copy/Copy_Constructor.o: Copy_control/Copy/Copy_Constructor.cpp.o
+
+.PHONY : Copy_control/Copy/Copy_Constructor.o
+
+# target to build an object file
+Copy_control/Copy/Copy_Constructor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/Copy_control/Copy/Copy_Constructor.cpp.o
+.PHONY : Copy_control/Copy/Copy_Constructor.cpp.o
+
+Copy_control/Copy/Copy_Constructor.i: Copy_control/Copy/Copy_Constructor.cpp.i
+
+.PHONY : Copy_control/Copy/Copy_Constructor.i
+
+# target to preprocess a source file
+Copy_control/Copy/Copy_Constructor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/Copy_control/Copy/Copy_Constructor.cpp.i
+.PHONY : Copy_control/Copy/Copy_Constructor.cpp.i
+
+Copy_control/Copy/Copy_Constructor.s: Copy_control/Copy/Copy_Constructor.cpp.s
+
+.PHONY : Copy_control/Copy/Copy_Constructor.s
+
+# target to generate assembly for a file
+Copy_control/Copy/Copy_Constructor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/Copy_control/Copy/Copy_Constructor.cpp.s
+.PHONY : Copy_control/Copy/Copy_Constructor.cpp.s
+
+Copy_control/Copy_Control/Class_Act_As_Ptr.o: Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.o
+
+.PHONY : Copy_control/Copy_Control/Class_Act_As_Ptr.o
+
+# target to build an object file
+Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.o
+.PHONY : Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.o
+
+Copy_control/Copy_Control/Class_Act_As_Ptr.i: Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.i
+
+.PHONY : Copy_control/Copy_Control/Class_Act_As_Ptr.i
+
+# target to preprocess a source file
+Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.i
+.PHONY : Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.i
+
+Copy_control/Copy_Control/Class_Act_As_Ptr.s: Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.s
+
+.PHONY : Copy_control/Copy_Control/Class_Act_As_Ptr.s
+
+# target to generate assembly for a file
+Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.s
+.PHONY : Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.s
+
+Copy_control/Copy_Control/Class_Act_As_Value.o: Copy_control/Copy_Control/Class_Act_As_Value.cpp.o
+
+.PHONY : Copy_control/Copy_Control/Class_Act_As_Value.o
+
+# target to build an object file
+Copy_control/Copy_Control/Class_Act_As_Value.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Value.cpp.o
+.PHONY : Copy_control/Copy_Control/Class_Act_As_Value.cpp.o
+
+Copy_control/Copy_Control/Class_Act_As_Value.i: Copy_control/Copy_Control/Class_Act_As_Value.cpp.i
+
+.PHONY : Copy_control/Copy_Control/Class_Act_As_Value.i
+
+# target to preprocess a source file
+Copy_control/Copy_Control/Class_Act_As_Value.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Value.cpp.i
+.PHONY : Copy_control/Copy_Control/Class_Act_As_Value.cpp.i
+
+Copy_control/Copy_Control/Class_Act_As_Value.s: Copy_control/Copy_Control/Class_Act_As_Value.cpp.s
+
+.PHONY : Copy_control/Copy_Control/Class_Act_As_Value.s
+
+# target to generate assembly for a file
+Copy_control/Copy_Control/Class_Act_As_Value.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Value.cpp.s
+.PHONY : Copy_control/Copy_Control/Class_Act_As_Value.cpp.s
+
+Copy_control/Copy_Control/Copy_Control_Example.o: Copy_control/Copy_Control/Copy_Control_Example.cpp.o
+
+.PHONY : Copy_control/Copy_Control/Copy_Control_Example.o
+
+# target to build an object file
+Copy_control/Copy_Control/Copy_Control_Example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/Copy_control/Copy_Control/Copy_Control_Example.cpp.o
+.PHONY : Copy_control/Copy_Control/Copy_Control_Example.cpp.o
+
+Copy_control/Copy_Control/Copy_Control_Example.i: Copy_control/Copy_Control/Copy_Control_Example.cpp.i
+
+.PHONY : Copy_control/Copy_Control/Copy_Control_Example.i
+
+# target to preprocess a source file
+Copy_control/Copy_Control/Copy_Control_Example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/Copy_control/Copy_Control/Copy_Control_Example.cpp.i
+.PHONY : Copy_control/Copy_Control/Copy_Control_Example.cpp.i
+
+Copy_control/Copy_Control/Copy_Control_Example.s: Copy_control/Copy_Control/Copy_Control_Example.cpp.s
+
+.PHONY : Copy_control/Copy_Control/Copy_Control_Example.s
+
+# target to generate assembly for a file
+Copy_control/Copy_Control/Copy_Control_Example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/Copy_control/Copy_Control/Copy_Control_Example.cpp.s
+.PHONY : Copy_control/Copy_Control/Copy_Control_Example.cpp.s
+
+Copy_control/Copy_Control/Rule_Of_Three_Or_Five.o: Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.o
+
+.PHONY : Copy_control/Copy_Control/Rule_Of_Three_Or_Five.o
+
+# target to build an object file
+Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.o
+.PHONY : Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.o
+
+Copy_control/Copy_Control/Rule_Of_Three_Or_Five.i: Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.i
+
+.PHONY : Copy_control/Copy_Control/Rule_Of_Three_Or_Five.i
+
+# target to preprocess a source file
+Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.i
+.PHONY : Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.i
+
+Copy_control/Copy_Control/Rule_Of_Three_Or_Five.s: Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.s
+
+.PHONY : Copy_control/Copy_Control/Rule_Of_Three_Or_Five.s
+
+# target to generate assembly for a file
+Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.s
+.PHONY : Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.s
+
+Copy_control/Copy_Control/Swap.o: Copy_control/Copy_Control/Swap.cpp.o
+
+.PHONY : Copy_control/Copy_Control/Swap.o
+
+# target to build an object file
+Copy_control/Copy_Control/Swap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/Copy_control/Copy_Control/Swap.cpp.o
+.PHONY : Copy_control/Copy_Control/Swap.cpp.o
+
+Copy_control/Copy_Control/Swap.i: Copy_control/Copy_Control/Swap.cpp.i
+
+.PHONY : Copy_control/Copy_Control/Swap.i
+
+# target to preprocess a source file
+Copy_control/Copy_Control/Swap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/Copy_control/Copy_Control/Swap.cpp.i
+.PHONY : Copy_control/Copy_Control/Swap.cpp.i
+
+Copy_control/Copy_Control/Swap.s: Copy_control/Copy_Control/Swap.cpp.s
+
+.PHONY : Copy_control/Copy_Control/Swap.s
+
+# target to generate assembly for a file
+Copy_control/Copy_Control/Swap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/Copy_control/Copy_Control/Swap.cpp.s
+.PHONY : Copy_control/Copy_Control/Swap.cpp.s
+
 Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.o: Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o
 
 .PHONY : Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.o
 
 # target to build an object file
 Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main3.dir/build.make CMakeFiles/main3.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o
 .PHONY : Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o
 
 Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.i: Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.i
@@ -369,8 +650,7 @@ Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.i: Copy_control
 
 # target to preprocess a source file
 Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main3.dir/build.make CMakeFiles/main3.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.i
 .PHONY : Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.i
 
 Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.s: Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s
@@ -379,9 +659,62 @@ Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.s: Copy_control
 
 # target to generate assembly for a file
 Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main3.dir/build.make CMakeFiles/main3.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s
 .PHONY : Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s
+
+Copy_control/Move/Move.o: Copy_control/Move/Move.cpp.o
+
+.PHONY : Copy_control/Move/Move.o
+
+# target to build an object file
+Copy_control/Move/Move.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/Copy_control/Move/Move.cpp.o
+.PHONY : Copy_control/Move/Move.cpp.o
+
+Copy_control/Move/Move.i: Copy_control/Move/Move.cpp.i
+
+.PHONY : Copy_control/Move/Move.i
+
+# target to preprocess a source file
+Copy_control/Move/Move.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/Copy_control/Move/Move.cpp.i
+.PHONY : Copy_control/Move/Move.cpp.i
+
+Copy_control/Move/Move.s: Copy_control/Move/Move.cpp.s
+
+.PHONY : Copy_control/Move/Move.s
+
+# target to generate assembly for a file
+Copy_control/Move/Move.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/Copy_control/Move/Move.cpp.s
+.PHONY : Copy_control/Move/Move.cpp.s
+
+Copy_control/Move/Move_Iterator.o: Copy_control/Move/Move_Iterator.cpp.o
+
+.PHONY : Copy_control/Move/Move_Iterator.o
+
+# target to build an object file
+Copy_control/Move/Move_Iterator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/Copy_control/Move/Move_Iterator.cpp.o
+.PHONY : Copy_control/Move/Move_Iterator.cpp.o
+
+Copy_control/Move/Move_Iterator.i: Copy_control/Move/Move_Iterator.cpp.i
+
+.PHONY : Copy_control/Move/Move_Iterator.i
+
+# target to preprocess a source file
+Copy_control/Move/Move_Iterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/Copy_control/Move/Move_Iterator.cpp.i
+.PHONY : Copy_control/Move/Move_Iterator.cpp.i
+
+Copy_control/Move/Move_Iterator.s: Copy_control/Move/Move_Iterator.cpp.s
+
+.PHONY : Copy_control/Move/Move_Iterator.s
+
+# target to generate assembly for a file
+Copy_control/Move/Move_Iterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/Copy_control/Move/Move_Iterator.cpp.s
+.PHONY : Copy_control/Move/Move_Iterator.cpp.s
 
 Copy_control/Move/Rvalue_Reference.o: Copy_control/Move/Rvalue_Reference.cpp.o
 
@@ -389,7 +722,7 @@ Copy_control/Move/Rvalue_Reference.o: Copy_control/Move/Rvalue_Reference.cpp.o
 
 # target to build an object file
 Copy_control/Move/Rvalue_Reference.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main8.dir/build.make CMakeFiles/main8.dir/Copy_control/Move/Rvalue_Reference.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference.cpp.o
 .PHONY : Copy_control/Move/Rvalue_Reference.cpp.o
 
 Copy_control/Move/Rvalue_Reference.i: Copy_control/Move/Rvalue_Reference.cpp.i
@@ -398,7 +731,7 @@ Copy_control/Move/Rvalue_Reference.i: Copy_control/Move/Rvalue_Reference.cpp.i
 
 # target to preprocess a source file
 Copy_control/Move/Rvalue_Reference.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main8.dir/build.make CMakeFiles/main8.dir/Copy_control/Move/Rvalue_Reference.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference.cpp.i
 .PHONY : Copy_control/Move/Rvalue_Reference.cpp.i
 
 Copy_control/Move/Rvalue_Reference.s: Copy_control/Move/Rvalue_Reference.cpp.s
@@ -407,7 +740,7 @@ Copy_control/Move/Rvalue_Reference.s: Copy_control/Move/Rvalue_Reference.cpp.s
 
 # target to generate assembly for a file
 Copy_control/Move/Rvalue_Reference.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main8.dir/build.make CMakeFiles/main8.dir/Copy_control/Move/Rvalue_Reference.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference.cpp.s
 .PHONY : Copy_control/Move/Rvalue_Reference.cpp.s
 
 Copy_control/Move/Rvalue_Reference_for_Class_Member.o: Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o
@@ -416,7 +749,7 @@ Copy_control/Move/Rvalue_Reference_for_Class_Member.o: Copy_control/Move/Rvalue_
 
 # target to build an object file
 Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o
 .PHONY : Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o
 
 Copy_control/Move/Rvalue_Reference_for_Class_Member.i: Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.i
@@ -425,7 +758,7 @@ Copy_control/Move/Rvalue_Reference_for_Class_Member.i: Copy_control/Move/Rvalue_
 
 # target to preprocess a source file
 Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.i
 .PHONY : Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.i
 
 Copy_control/Move/Rvalue_Reference_for_Class_Member.s: Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.s
@@ -434,8 +767,116 @@ Copy_control/Move/Rvalue_Reference_for_Class_Member.s: Copy_control/Move/Rvalue_
 
 # target to generate assembly for a file
 Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.s
 .PHONY : Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.s
+
+Dynamic_Memory/Delete.o: Dynamic_Memory/Delete.cpp.o
+
+.PHONY : Dynamic_Memory/Delete.o
+
+# target to build an object file
+Dynamic_Memory/Delete.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/Dynamic_Memory/Delete.cpp.o
+.PHONY : Dynamic_Memory/Delete.cpp.o
+
+Dynamic_Memory/Delete.i: Dynamic_Memory/Delete.cpp.i
+
+.PHONY : Dynamic_Memory/Delete.i
+
+# target to preprocess a source file
+Dynamic_Memory/Delete.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/Dynamic_Memory/Delete.cpp.i
+.PHONY : Dynamic_Memory/Delete.cpp.i
+
+Dynamic_Memory/Delete.s: Dynamic_Memory/Delete.cpp.s
+
+.PHONY : Dynamic_Memory/Delete.s
+
+# target to generate assembly for a file
+Dynamic_Memory/Delete.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/Dynamic_Memory/Delete.cpp.s
+.PHONY : Dynamic_Memory/Delete.cpp.s
+
+Dynamic_Memory/Dynamic_Memory_Example.o: Dynamic_Memory/Dynamic_Memory_Example.cpp.o
+
+.PHONY : Dynamic_Memory/Dynamic_Memory_Example.o
+
+# target to build an object file
+Dynamic_Memory/Dynamic_Memory_Example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/Dynamic_Memory/Dynamic_Memory_Example.cpp.o
+.PHONY : Dynamic_Memory/Dynamic_Memory_Example.cpp.o
+
+Dynamic_Memory/Dynamic_Memory_Example.i: Dynamic_Memory/Dynamic_Memory_Example.cpp.i
+
+.PHONY : Dynamic_Memory/Dynamic_Memory_Example.i
+
+# target to preprocess a source file
+Dynamic_Memory/Dynamic_Memory_Example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/Dynamic_Memory/Dynamic_Memory_Example.cpp.i
+.PHONY : Dynamic_Memory/Dynamic_Memory_Example.cpp.i
+
+Dynamic_Memory/Dynamic_Memory_Example.s: Dynamic_Memory/Dynamic_Memory_Example.cpp.s
+
+.PHONY : Dynamic_Memory/Dynamic_Memory_Example.s
+
+# target to generate assembly for a file
+Dynamic_Memory/Dynamic_Memory_Example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/Dynamic_Memory/Dynamic_Memory_Example.cpp.s
+.PHONY : Dynamic_Memory/Dynamic_Memory_Example.cpp.s
+
+Dynamic_Memory/New.o: Dynamic_Memory/New.cpp.o
+
+.PHONY : Dynamic_Memory/New.o
+
+# target to build an object file
+Dynamic_Memory/New.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/Dynamic_Memory/New.cpp.o
+.PHONY : Dynamic_Memory/New.cpp.o
+
+Dynamic_Memory/New.i: Dynamic_Memory/New.cpp.i
+
+.PHONY : Dynamic_Memory/New.i
+
+# target to preprocess a source file
+Dynamic_Memory/New.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/Dynamic_Memory/New.cpp.i
+.PHONY : Dynamic_Memory/New.cpp.i
+
+Dynamic_Memory/New.s: Dynamic_Memory/New.cpp.s
+
+.PHONY : Dynamic_Memory/New.s
+
+# target to generate assembly for a file
+Dynamic_Memory/New.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/Dynamic_Memory/New.cpp.s
+.PHONY : Dynamic_Memory/New.cpp.s
+
+Dynamic_Memory/Shared_Ptr.o: Dynamic_Memory/Shared_Ptr.cpp.o
+
+.PHONY : Dynamic_Memory/Shared_Ptr.o
+
+# target to build an object file
+Dynamic_Memory/Shared_Ptr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr.cpp.o
+.PHONY : Dynamic_Memory/Shared_Ptr.cpp.o
+
+Dynamic_Memory/Shared_Ptr.i: Dynamic_Memory/Shared_Ptr.cpp.i
+
+.PHONY : Dynamic_Memory/Shared_Ptr.i
+
+# target to preprocess a source file
+Dynamic_Memory/Shared_Ptr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr.cpp.i
+.PHONY : Dynamic_Memory/Shared_Ptr.cpp.i
+
+Dynamic_Memory/Shared_Ptr.s: Dynamic_Memory/Shared_Ptr.cpp.s
+
+.PHONY : Dynamic_Memory/Shared_Ptr.s
+
+# target to generate assembly for a file
+Dynamic_Memory/Shared_Ptr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr.cpp.s
+.PHONY : Dynamic_Memory/Shared_Ptr.cpp.s
 
 Dynamic_Memory/Shared_Ptr_And_New.o: Dynamic_Memory/Shared_Ptr_And_New.cpp.o
 
@@ -443,7 +884,7 @@ Dynamic_Memory/Shared_Ptr_And_New.o: Dynamic_Memory/Shared_Ptr_And_New.cpp.o
 
 # target to build an object file
 Dynamic_Memory/Shared_Ptr_And_New.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main11.dir/build.make CMakeFiles/main11.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.o
 .PHONY : Dynamic_Memory/Shared_Ptr_And_New.cpp.o
 
 Dynamic_Memory/Shared_Ptr_And_New.i: Dynamic_Memory/Shared_Ptr_And_New.cpp.i
@@ -452,7 +893,7 @@ Dynamic_Memory/Shared_Ptr_And_New.i: Dynamic_Memory/Shared_Ptr_And_New.cpp.i
 
 # target to preprocess a source file
 Dynamic_Memory/Shared_Ptr_And_New.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main11.dir/build.make CMakeFiles/main11.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.i
 .PHONY : Dynamic_Memory/Shared_Ptr_And_New.cpp.i
 
 Dynamic_Memory/Shared_Ptr_And_New.s: Dynamic_Memory/Shared_Ptr_And_New.cpp.s
@@ -461,7 +902,7 @@ Dynamic_Memory/Shared_Ptr_And_New.s: Dynamic_Memory/Shared_Ptr_And_New.cpp.s
 
 # target to generate assembly for a file
 Dynamic_Memory/Shared_Ptr_And_New.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main11.dir/build.make CMakeFiles/main11.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.s
 .PHONY : Dynamic_Memory/Shared_Ptr_And_New.cpp.s
 
 Dynamic_Memory/allocator.o: Dynamic_Memory/allocator.cpp.o
@@ -470,7 +911,7 @@ Dynamic_Memory/allocator.o: Dynamic_Memory/allocator.cpp.o
 
 # target to build an object file
 Dynamic_Memory/allocator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/Dynamic_Memory/allocator.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/Dynamic_Memory/allocator.cpp.o
 .PHONY : Dynamic_Memory/allocator.cpp.o
 
 Dynamic_Memory/allocator.i: Dynamic_Memory/allocator.cpp.i
@@ -479,7 +920,7 @@ Dynamic_Memory/allocator.i: Dynamic_Memory/allocator.cpp.i
 
 # target to preprocess a source file
 Dynamic_Memory/allocator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/Dynamic_Memory/allocator.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/Dynamic_Memory/allocator.cpp.i
 .PHONY : Dynamic_Memory/allocator.cpp.i
 
 Dynamic_Memory/allocator.s: Dynamic_Memory/allocator.cpp.s
@@ -488,8 +929,413 @@ Dynamic_Memory/allocator.s: Dynamic_Memory/allocator.cpp.s
 
 # target to generate assembly for a file
 Dynamic_Memory/allocator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main6.dir/build.make CMakeFiles/main6.dir/Dynamic_Memory/allocator.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main5.dir/build.make CMakeFiles/main5.dir/Dynamic_Memory/allocator.cpp.s
 .PHONY : Dynamic_Memory/allocator.cpp.s
+
+Flow_Control/Condition_and_Branch.o: Flow_Control/Condition_and_Branch.cpp.o
+
+.PHONY : Flow_Control/Condition_and_Branch.o
+
+# target to build an object file
+Flow_Control/Condition_and_Branch.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/Flow_Control/Condition_and_Branch.cpp.o
+.PHONY : Flow_Control/Condition_and_Branch.cpp.o
+
+Flow_Control/Condition_and_Branch.i: Flow_Control/Condition_and_Branch.cpp.i
+
+.PHONY : Flow_Control/Condition_and_Branch.i
+
+# target to preprocess a source file
+Flow_Control/Condition_and_Branch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/Flow_Control/Condition_and_Branch.cpp.i
+.PHONY : Flow_Control/Condition_and_Branch.cpp.i
+
+Flow_Control/Condition_and_Branch.s: Flow_Control/Condition_and_Branch.cpp.s
+
+.PHONY : Flow_Control/Condition_and_Branch.s
+
+# target to generate assembly for a file
+Flow_Control/Condition_and_Branch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/Flow_Control/Condition_and_Branch.cpp.s
+.PHONY : Flow_Control/Condition_and_Branch.cpp.s
+
+Flow_Control/Flow_Control.o: Flow_Control/Flow_Control.cpp.o
+
+.PHONY : Flow_Control/Flow_Control.o
+
+# target to build an object file
+Flow_Control/Flow_Control.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/Flow_Control/Flow_Control.cpp.o
+.PHONY : Flow_Control/Flow_Control.cpp.o
+
+Flow_Control/Flow_Control.i: Flow_Control/Flow_Control.cpp.i
+
+.PHONY : Flow_Control/Flow_Control.i
+
+# target to preprocess a source file
+Flow_Control/Flow_Control.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/Flow_Control/Flow_Control.cpp.i
+.PHONY : Flow_Control/Flow_Control.cpp.i
+
+Flow_Control/Flow_Control.s: Flow_Control/Flow_Control.cpp.s
+
+.PHONY : Flow_Control/Flow_Control.s
+
+# target to generate assembly for a file
+Flow_Control/Flow_Control.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/Flow_Control/Flow_Control.cpp.s
+.PHONY : Flow_Control/Flow_Control.cpp.s
+
+Flow_Control/Input_and_Output.o: Flow_Control/Input_and_Output.cpp.o
+
+.PHONY : Flow_Control/Input_and_Output.o
+
+# target to build an object file
+Flow_Control/Input_and_Output.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/Flow_Control/Input_and_Output.cpp.o
+.PHONY : Flow_Control/Input_and_Output.cpp.o
+
+Flow_Control/Input_and_Output.i: Flow_Control/Input_and_Output.cpp.i
+
+.PHONY : Flow_Control/Input_and_Output.i
+
+# target to preprocess a source file
+Flow_Control/Input_and_Output.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/Flow_Control/Input_and_Output.cpp.i
+.PHONY : Flow_Control/Input_and_Output.cpp.i
+
+Flow_Control/Input_and_Output.s: Flow_Control/Input_and_Output.cpp.s
+
+.PHONY : Flow_Control/Input_and_Output.s
+
+# target to generate assembly for a file
+Flow_Control/Input_and_Output.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/Flow_Control/Input_and_Output.cpp.s
+.PHONY : Flow_Control/Input_and_Output.cpp.s
+
+Flow_Control/Loop.o: Flow_Control/Loop.cpp.o
+
+.PHONY : Flow_Control/Loop.o
+
+# target to build an object file
+Flow_Control/Loop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/Flow_Control/Loop.cpp.o
+.PHONY : Flow_Control/Loop.cpp.o
+
+Flow_Control/Loop.i: Flow_Control/Loop.cpp.i
+
+.PHONY : Flow_Control/Loop.i
+
+# target to preprocess a source file
+Flow_Control/Loop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/Flow_Control/Loop.cpp.i
+.PHONY : Flow_Control/Loop.cpp.i
+
+Flow_Control/Loop.s: Flow_Control/Loop.cpp.s
+
+.PHONY : Flow_Control/Loop.s
+
+# target to generate assembly for a file
+Flow_Control/Loop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main7.dir/build.make CMakeFiles/main7.dir/Flow_Control/Loop.cpp.s
+.PHONY : Flow_Control/Loop.cpp.s
+
+Generic_Algorithm/Introduction.o: Generic_Algorithm/Introduction.cpp.o
+
+.PHONY : Generic_Algorithm/Introduction.o
+
+# target to build an object file
+Generic_Algorithm/Introduction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main12.dir/build.make CMakeFiles/main12.dir/Generic_Algorithm/Introduction.cpp.o
+.PHONY : Generic_Algorithm/Introduction.cpp.o
+
+Generic_Algorithm/Introduction.i: Generic_Algorithm/Introduction.cpp.i
+
+.PHONY : Generic_Algorithm/Introduction.i
+
+# target to preprocess a source file
+Generic_Algorithm/Introduction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main12.dir/build.make CMakeFiles/main12.dir/Generic_Algorithm/Introduction.cpp.i
+.PHONY : Generic_Algorithm/Introduction.cpp.i
+
+Generic_Algorithm/Introduction.s: Generic_Algorithm/Introduction.cpp.s
+
+.PHONY : Generic_Algorithm/Introduction.s
+
+# target to generate assembly for a file
+Generic_Algorithm/Introduction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main12.dir/build.make CMakeFiles/main12.dir/Generic_Algorithm/Introduction.cpp.s
+.PHONY : Generic_Algorithm/Introduction.cpp.s
+
+Generic_Algorithm/Iterator.o: Generic_Algorithm/Iterator.cpp.o
+
+.PHONY : Generic_Algorithm/Iterator.o
+
+# target to build an object file
+Generic_Algorithm/Iterator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main12.dir/build.make CMakeFiles/main12.dir/Generic_Algorithm/Iterator.cpp.o
+.PHONY : Generic_Algorithm/Iterator.cpp.o
+
+Generic_Algorithm/Iterator.i: Generic_Algorithm/Iterator.cpp.i
+
+.PHONY : Generic_Algorithm/Iterator.i
+
+# target to preprocess a source file
+Generic_Algorithm/Iterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main12.dir/build.make CMakeFiles/main12.dir/Generic_Algorithm/Iterator.cpp.i
+.PHONY : Generic_Algorithm/Iterator.cpp.i
+
+Generic_Algorithm/Iterator.s: Generic_Algorithm/Iterator.cpp.s
+
+.PHONY : Generic_Algorithm/Iterator.s
+
+# target to generate assembly for a file
+Generic_Algorithm/Iterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main12.dir/build.make CMakeFiles/main12.dir/Generic_Algorithm/Iterator.cpp.s
+.PHONY : Generic_Algorithm/Iterator.cpp.s
+
+Generic_Algorithm/Lambda_Expression/Bind.o: Generic_Algorithm/Lambda_Expression/Bind.cpp.o
+
+.PHONY : Generic_Algorithm/Lambda_Expression/Bind.o
+
+# target to build an object file
+Generic_Algorithm/Lambda_Expression/Bind.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main13.dir/build.make CMakeFiles/main13.dir/Generic_Algorithm/Lambda_Expression/Bind.cpp.o
+.PHONY : Generic_Algorithm/Lambda_Expression/Bind.cpp.o
+
+Generic_Algorithm/Lambda_Expression/Bind.i: Generic_Algorithm/Lambda_Expression/Bind.cpp.i
+
+.PHONY : Generic_Algorithm/Lambda_Expression/Bind.i
+
+# target to preprocess a source file
+Generic_Algorithm/Lambda_Expression/Bind.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main13.dir/build.make CMakeFiles/main13.dir/Generic_Algorithm/Lambda_Expression/Bind.cpp.i
+.PHONY : Generic_Algorithm/Lambda_Expression/Bind.cpp.i
+
+Generic_Algorithm/Lambda_Expression/Bind.s: Generic_Algorithm/Lambda_Expression/Bind.cpp.s
+
+.PHONY : Generic_Algorithm/Lambda_Expression/Bind.s
+
+# target to generate assembly for a file
+Generic_Algorithm/Lambda_Expression/Bind.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main13.dir/build.make CMakeFiles/main13.dir/Generic_Algorithm/Lambda_Expression/Bind.cpp.s
+.PHONY : Generic_Algorithm/Lambda_Expression/Bind.cpp.s
+
+Generic_Algorithm/Lambda_Expression/Capture_outside_variable.o: Generic_Algorithm/Lambda_Expression/Capture_outside_variable.cpp.o
+
+.PHONY : Generic_Algorithm/Lambda_Expression/Capture_outside_variable.o
+
+# target to build an object file
+Generic_Algorithm/Lambda_Expression/Capture_outside_variable.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main13.dir/build.make CMakeFiles/main13.dir/Generic_Algorithm/Lambda_Expression/Capture_outside_variable.cpp.o
+.PHONY : Generic_Algorithm/Lambda_Expression/Capture_outside_variable.cpp.o
+
+Generic_Algorithm/Lambda_Expression/Capture_outside_variable.i: Generic_Algorithm/Lambda_Expression/Capture_outside_variable.cpp.i
+
+.PHONY : Generic_Algorithm/Lambda_Expression/Capture_outside_variable.i
+
+# target to preprocess a source file
+Generic_Algorithm/Lambda_Expression/Capture_outside_variable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main13.dir/build.make CMakeFiles/main13.dir/Generic_Algorithm/Lambda_Expression/Capture_outside_variable.cpp.i
+.PHONY : Generic_Algorithm/Lambda_Expression/Capture_outside_variable.cpp.i
+
+Generic_Algorithm/Lambda_Expression/Capture_outside_variable.s: Generic_Algorithm/Lambda_Expression/Capture_outside_variable.cpp.s
+
+.PHONY : Generic_Algorithm/Lambda_Expression/Capture_outside_variable.s
+
+# target to generate assembly for a file
+Generic_Algorithm/Lambda_Expression/Capture_outside_variable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main13.dir/build.make CMakeFiles/main13.dir/Generic_Algorithm/Lambda_Expression/Capture_outside_variable.cpp.s
+.PHONY : Generic_Algorithm/Lambda_Expression/Capture_outside_variable.cpp.s
+
+Generic_Algorithm/Lambda_Expression/Lamdba_Basic.o: Generic_Algorithm/Lambda_Expression/Lamdba_Basic.cpp.o
+
+.PHONY : Generic_Algorithm/Lambda_Expression/Lamdba_Basic.o
+
+# target to build an object file
+Generic_Algorithm/Lambda_Expression/Lamdba_Basic.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main13.dir/build.make CMakeFiles/main13.dir/Generic_Algorithm/Lambda_Expression/Lamdba_Basic.cpp.o
+.PHONY : Generic_Algorithm/Lambda_Expression/Lamdba_Basic.cpp.o
+
+Generic_Algorithm/Lambda_Expression/Lamdba_Basic.i: Generic_Algorithm/Lambda_Expression/Lamdba_Basic.cpp.i
+
+.PHONY : Generic_Algorithm/Lambda_Expression/Lamdba_Basic.i
+
+# target to preprocess a source file
+Generic_Algorithm/Lambda_Expression/Lamdba_Basic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main13.dir/build.make CMakeFiles/main13.dir/Generic_Algorithm/Lambda_Expression/Lamdba_Basic.cpp.i
+.PHONY : Generic_Algorithm/Lambda_Expression/Lamdba_Basic.cpp.i
+
+Generic_Algorithm/Lambda_Expression/Lamdba_Basic.s: Generic_Algorithm/Lambda_Expression/Lamdba_Basic.cpp.s
+
+.PHONY : Generic_Algorithm/Lambda_Expression/Lamdba_Basic.s
+
+# target to generate assembly for a file
+Generic_Algorithm/Lambda_Expression/Lamdba_Basic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main13.dir/build.make CMakeFiles/main13.dir/Generic_Algorithm/Lambda_Expression/Lamdba_Basic.cpp.s
+.PHONY : Generic_Algorithm/Lambda_Expression/Lamdba_Basic.cpp.s
+
+Generic_programming_and_template/Class_template.o: Generic_programming_and_template/Class_template.cpp.o
+
+.PHONY : Generic_programming_and_template/Class_template.o
+
+# target to build an object file
+Generic_programming_and_template/Class_template.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main14.dir/build.make CMakeFiles/main14.dir/Generic_programming_and_template/Class_template.cpp.o
+.PHONY : Generic_programming_and_template/Class_template.cpp.o
+
+Generic_programming_and_template/Class_template.i: Generic_programming_and_template/Class_template.cpp.i
+
+.PHONY : Generic_programming_and_template/Class_template.i
+
+# target to preprocess a source file
+Generic_programming_and_template/Class_template.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main14.dir/build.make CMakeFiles/main14.dir/Generic_programming_and_template/Class_template.cpp.i
+.PHONY : Generic_programming_and_template/Class_template.cpp.i
+
+Generic_programming_and_template/Class_template.s: Generic_programming_and_template/Class_template.cpp.s
+
+.PHONY : Generic_programming_and_template/Class_template.s
+
+# target to generate assembly for a file
+Generic_programming_and_template/Class_template.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main14.dir/build.make CMakeFiles/main14.dir/Generic_programming_and_template/Class_template.cpp.s
+.PHONY : Generic_programming_and_template/Class_template.cpp.s
+
+Generic_programming_and_template/Function_template.o: Generic_programming_and_template/Function_template.cpp.o
+
+.PHONY : Generic_programming_and_template/Function_template.o
+
+# target to build an object file
+Generic_programming_and_template/Function_template.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main14.dir/build.make CMakeFiles/main14.dir/Generic_programming_and_template/Function_template.cpp.o
+.PHONY : Generic_programming_and_template/Function_template.cpp.o
+
+Generic_programming_and_template/Function_template.i: Generic_programming_and_template/Function_template.cpp.i
+
+.PHONY : Generic_programming_and_template/Function_template.i
+
+# target to preprocess a source file
+Generic_programming_and_template/Function_template.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main14.dir/build.make CMakeFiles/main14.dir/Generic_programming_and_template/Function_template.cpp.i
+.PHONY : Generic_programming_and_template/Function_template.cpp.i
+
+Generic_programming_and_template/Function_template.s: Generic_programming_and_template/Function_template.cpp.s
+
+.PHONY : Generic_programming_and_template/Function_template.s
+
+# target to generate assembly for a file
+Generic_programming_and_template/Function_template.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main14.dir/build.make CMakeFiles/main14.dir/Generic_programming_and_template/Function_template.cpp.s
+.PHONY : Generic_programming_and_template/Function_template.cpp.s
+
+Generic_programming_and_template/Template_param.o: Generic_programming_and_template/Template_param.cpp.o
+
+.PHONY : Generic_programming_and_template/Template_param.o
+
+# target to build an object file
+Generic_programming_and_template/Template_param.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main14.dir/build.make CMakeFiles/main14.dir/Generic_programming_and_template/Template_param.cpp.o
+.PHONY : Generic_programming_and_template/Template_param.cpp.o
+
+Generic_programming_and_template/Template_param.i: Generic_programming_and_template/Template_param.cpp.i
+
+.PHONY : Generic_programming_and_template/Template_param.i
+
+# target to preprocess a source file
+Generic_programming_and_template/Template_param.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main14.dir/build.make CMakeFiles/main14.dir/Generic_programming_and_template/Template_param.cpp.i
+.PHONY : Generic_programming_and_template/Template_param.cpp.i
+
+Generic_programming_and_template/Template_param.s: Generic_programming_and_template/Template_param.cpp.s
+
+.PHONY : Generic_programming_and_template/Template_param.s
+
+# target to generate assembly for a file
+Generic_programming_and_template/Template_param.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main14.dir/build.make CMakeFiles/main14.dir/Generic_programming_and_template/Template_param.cpp.s
+.PHONY : Generic_programming_and_template/Template_param.cpp.s
+
+Generic_programming_and_template/Template_param_introduction.o: Generic_programming_and_template/Template_param_introduction.cpp.o
+
+.PHONY : Generic_programming_and_template/Template_param_introduction.o
+
+# target to build an object file
+Generic_programming_and_template/Template_param_introduction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main15.dir/build.make CMakeFiles/main15.dir/Generic_programming_and_template/Template_param_introduction.cpp.o
+.PHONY : Generic_programming_and_template/Template_param_introduction.cpp.o
+
+Generic_programming_and_template/Template_param_introduction.i: Generic_programming_and_template/Template_param_introduction.cpp.i
+
+.PHONY : Generic_programming_and_template/Template_param_introduction.i
+
+# target to preprocess a source file
+Generic_programming_and_template/Template_param_introduction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main15.dir/build.make CMakeFiles/main15.dir/Generic_programming_and_template/Template_param_introduction.cpp.i
+.PHONY : Generic_programming_and_template/Template_param_introduction.cpp.i
+
+Generic_programming_and_template/Template_param_introduction.s: Generic_programming_and_template/Template_param_introduction.cpp.s
+
+.PHONY : Generic_programming_and_template/Template_param_introduction.s
+
+# target to generate assembly for a file
+Generic_programming_and_template/Template_param_introduction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main15.dir/build.make CMakeFiles/main15.dir/Generic_programming_and_template/Template_param_introduction.cpp.s
+.PHONY : Generic_programming_and_template/Template_param_introduction.cpp.s
+
+Generic_programming_and_template/Variadic_template.o: Generic_programming_and_template/Variadic_template.cpp.o
+
+.PHONY : Generic_programming_and_template/Variadic_template.o
+
+# target to build an object file
+Generic_programming_and_template/Variadic_template.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main15.dir/build.make CMakeFiles/main15.dir/Generic_programming_and_template/Variadic_template.cpp.o
+.PHONY : Generic_programming_and_template/Variadic_template.cpp.o
+
+Generic_programming_and_template/Variadic_template.i: Generic_programming_and_template/Variadic_template.cpp.i
+
+.PHONY : Generic_programming_and_template/Variadic_template.i
+
+# target to preprocess a source file
+Generic_programming_and_template/Variadic_template.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main15.dir/build.make CMakeFiles/main15.dir/Generic_programming_and_template/Variadic_template.cpp.i
+.PHONY : Generic_programming_and_template/Variadic_template.cpp.i
+
+Generic_programming_and_template/Variadic_template.s: Generic_programming_and_template/Variadic_template.cpp.s
+
+.PHONY : Generic_programming_and_template/Variadic_template.s
+
+# target to generate assembly for a file
+Generic_programming_and_template/Variadic_template.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main15.dir/build.make CMakeFiles/main15.dir/Generic_programming_and_template/Variadic_template.cpp.s
+.PHONY : Generic_programming_and_template/Variadic_template.cpp.s
+
+OOP/Copy_Control/Constructor_Inheritance.o: OOP/Copy_Control/Constructor_Inheritance.cpp.o
+
+.PHONY : OOP/Copy_Control/Constructor_Inheritance.o
+
+# target to build an object file
+OOP/Copy_Control/Constructor_Inheritance.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main8.dir/build.make CMakeFiles/main8.dir/OOP/Copy_Control/Constructor_Inheritance.cpp.o
+.PHONY : OOP/Copy_Control/Constructor_Inheritance.cpp.o
+
+OOP/Copy_Control/Constructor_Inheritance.i: OOP/Copy_Control/Constructor_Inheritance.cpp.i
+
+.PHONY : OOP/Copy_Control/Constructor_Inheritance.i
+
+# target to preprocess a source file
+OOP/Copy_Control/Constructor_Inheritance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main8.dir/build.make CMakeFiles/main8.dir/OOP/Copy_Control/Constructor_Inheritance.cpp.i
+.PHONY : OOP/Copy_Control/Constructor_Inheritance.cpp.i
+
+OOP/Copy_Control/Constructor_Inheritance.s: OOP/Copy_Control/Constructor_Inheritance.cpp.s
+
+.PHONY : OOP/Copy_Control/Constructor_Inheritance.s
+
+# target to generate assembly for a file
+OOP/Copy_Control/Constructor_Inheritance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main8.dir/build.make CMakeFiles/main8.dir/OOP/Copy_Control/Constructor_Inheritance.cpp.s
+.PHONY : OOP/Copy_Control/Constructor_Inheritance.cpp.s
 
 OOP/Copy_Control/Copy_Control_And_Inheritance.o: OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o
 
@@ -497,7 +1343,7 @@ OOP/Copy_Control/Copy_Control_And_Inheritance.o: OOP/Copy_Control/Copy_Control_A
 
 # target to build an object file
 OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main10.dir/build.make CMakeFiles/main10.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main8.dir/build.make CMakeFiles/main8.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o
 .PHONY : OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o
 
 OOP/Copy_Control/Copy_Control_And_Inheritance.i: OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.i
@@ -506,7 +1352,7 @@ OOP/Copy_Control/Copy_Control_And_Inheritance.i: OOP/Copy_Control/Copy_Control_A
 
 # target to preprocess a source file
 OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main10.dir/build.make CMakeFiles/main10.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main8.dir/build.make CMakeFiles/main8.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.i
 .PHONY : OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.i
 
 OOP/Copy_Control/Copy_Control_And_Inheritance.s: OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.s
@@ -515,8 +1361,62 @@ OOP/Copy_Control/Copy_Control_And_Inheritance.s: OOP/Copy_Control/Copy_Control_A
 
 # target to generate assembly for a file
 OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main10.dir/build.make CMakeFiles/main10.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main8.dir/build.make CMakeFiles/main8.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.s
 .PHONY : OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.s
+
+OOP/Copy_Control/Virtual_Deconstructor.o: OOP/Copy_Control/Virtual_Deconstructor.cpp.o
+
+.PHONY : OOP/Copy_Control/Virtual_Deconstructor.o
+
+# target to build an object file
+OOP/Copy_Control/Virtual_Deconstructor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main8.dir/build.make CMakeFiles/main8.dir/OOP/Copy_Control/Virtual_Deconstructor.cpp.o
+.PHONY : OOP/Copy_Control/Virtual_Deconstructor.cpp.o
+
+OOP/Copy_Control/Virtual_Deconstructor.i: OOP/Copy_Control/Virtual_Deconstructor.cpp.i
+
+.PHONY : OOP/Copy_Control/Virtual_Deconstructor.i
+
+# target to preprocess a source file
+OOP/Copy_Control/Virtual_Deconstructor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main8.dir/build.make CMakeFiles/main8.dir/OOP/Copy_Control/Virtual_Deconstructor.cpp.i
+.PHONY : OOP/Copy_Control/Virtual_Deconstructor.cpp.i
+
+OOP/Copy_Control/Virtual_Deconstructor.s: OOP/Copy_Control/Virtual_Deconstructor.cpp.s
+
+.PHONY : OOP/Copy_Control/Virtual_Deconstructor.s
+
+# target to generate assembly for a file
+OOP/Copy_Control/Virtual_Deconstructor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main8.dir/build.make CMakeFiles/main8.dir/OOP/Copy_Control/Virtual_Deconstructor.cpp.s
+.PHONY : OOP/Copy_Control/Virtual_Deconstructor.cpp.s
+
+OOP/Inheritance/Inheritance.o: OOP/Inheritance/Inheritance.cpp.o
+
+.PHONY : OOP/Inheritance/Inheritance.o
+
+# target to build an object file
+OOP/Inheritance/Inheritance.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/OOP/Inheritance/Inheritance.cpp.o
+.PHONY : OOP/Inheritance/Inheritance.cpp.o
+
+OOP/Inheritance/Inheritance.i: OOP/Inheritance/Inheritance.cpp.i
+
+.PHONY : OOP/Inheritance/Inheritance.i
+
+# target to preprocess a source file
+OOP/Inheritance/Inheritance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/OOP/Inheritance/Inheritance.cpp.i
+.PHONY : OOP/Inheritance/Inheritance.cpp.i
+
+OOP/Inheritance/Inheritance.s: OOP/Inheritance/Inheritance.cpp.s
+
+.PHONY : OOP/Inheritance/Inheritance.s
+
+# target to generate assembly for a file
+OOP/Inheritance/Inheritance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/OOP/Inheritance/Inheritance.cpp.s
+.PHONY : OOP/Inheritance/Inheritance.cpp.s
 
 OOP/Inheritance/Scope.o: OOP/Inheritance/Scope.cpp.o
 
@@ -524,7 +1424,7 @@ OOP/Inheritance/Scope.o: OOP/Inheritance/Scope.cpp.o
 
 # target to build an object file
 OOP/Inheritance/Scope.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/OOP/Inheritance/Scope.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/OOP/Inheritance/Scope.cpp.o
 .PHONY : OOP/Inheritance/Scope.cpp.o
 
 OOP/Inheritance/Scope.i: OOP/Inheritance/Scope.cpp.i
@@ -533,7 +1433,7 @@ OOP/Inheritance/Scope.i: OOP/Inheritance/Scope.cpp.i
 
 # target to preprocess a source file
 OOP/Inheritance/Scope.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/OOP/Inheritance/Scope.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/OOP/Inheritance/Scope.cpp.i
 .PHONY : OOP/Inheritance/Scope.cpp.i
 
 OOP/Inheritance/Scope.s: OOP/Inheritance/Scope.cpp.s
@@ -542,8 +1442,35 @@ OOP/Inheritance/Scope.s: OOP/Inheritance/Scope.cpp.s
 
 # target to generate assembly for a file
 OOP/Inheritance/Scope.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/OOP/Inheritance/Scope.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/OOP/Inheritance/Scope.cpp.s
 .PHONY : OOP/Inheritance/Scope.cpp.s
+
+OOP/Inheritance/Virtual_Function.o: OOP/Inheritance/Virtual_Function.cpp.o
+
+.PHONY : OOP/Inheritance/Virtual_Function.o
+
+# target to build an object file
+OOP/Inheritance/Virtual_Function.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/OOP/Inheritance/Virtual_Function.cpp.o
+.PHONY : OOP/Inheritance/Virtual_Function.cpp.o
+
+OOP/Inheritance/Virtual_Function.i: OOP/Inheritance/Virtual_Function.cpp.i
+
+.PHONY : OOP/Inheritance/Virtual_Function.i
+
+# target to preprocess a source file
+OOP/Inheritance/Virtual_Function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/OOP/Inheritance/Virtual_Function.cpp.i
+.PHONY : OOP/Inheritance/Virtual_Function.cpp.i
+
+OOP/Inheritance/Virtual_Function.s: OOP/Inheritance/Virtual_Function.cpp.s
+
+.PHONY : OOP/Inheritance/Virtual_Function.s
+
+# target to generate assembly for a file
+OOP/Inheritance/Virtual_Function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/OOP/Inheritance/Virtual_Function.cpp.s
+.PHONY : OOP/Inheritance/Virtual_Function.cpp.s
 
 OOP/Inheritance/Visability.o: OOP/Inheritance/Visability.cpp.o
 
@@ -551,7 +1478,7 @@ OOP/Inheritance/Visability.o: OOP/Inheritance/Visability.cpp.o
 
 # target to build an object file
 OOP/Inheritance/Visability.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main3.dir/build.make CMakeFiles/main3.dir/OOP/Inheritance/Visability.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/OOP/Inheritance/Visability.cpp.o
 .PHONY : OOP/Inheritance/Visability.cpp.o
 
 OOP/Inheritance/Visability.i: OOP/Inheritance/Visability.cpp.i
@@ -560,7 +1487,7 @@ OOP/Inheritance/Visability.i: OOP/Inheritance/Visability.cpp.i
 
 # target to preprocess a source file
 OOP/Inheritance/Visability.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main3.dir/build.make CMakeFiles/main3.dir/OOP/Inheritance/Visability.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/OOP/Inheritance/Visability.cpp.i
 .PHONY : OOP/Inheritance/Visability.cpp.i
 
 OOP/Inheritance/Visability.s: OOP/Inheritance/Visability.cpp.s
@@ -569,7 +1496,7 @@ OOP/Inheritance/Visability.s: OOP/Inheritance/Visability.cpp.s
 
 # target to generate assembly for a file
 OOP/Inheritance/Visability.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main3.dir/build.make CMakeFiles/main3.dir/OOP/Inheritance/Visability.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/OOP/Inheritance/Visability.cpp.s
 .PHONY : OOP/Inheritance/Visability.cpp.s
 
 OOP/Inheritance/test.o: OOP/Inheritance/test.cpp.o
@@ -578,7 +1505,7 @@ OOP/Inheritance/test.o: OOP/Inheritance/test.cpp.o
 
 # target to build an object file
 OOP/Inheritance/test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/OOP/Inheritance/test.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/OOP/Inheritance/test.cpp.o
 .PHONY : OOP/Inheritance/test.cpp.o
 
 OOP/Inheritance/test.i: OOP/Inheritance/test.cpp.i
@@ -587,7 +1514,7 @@ OOP/Inheritance/test.i: OOP/Inheritance/test.cpp.i
 
 # target to preprocess a source file
 OOP/Inheritance/test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/OOP/Inheritance/test.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/OOP/Inheritance/test.cpp.i
 .PHONY : OOP/Inheritance/test.cpp.i
 
 OOP/Inheritance/test.s: OOP/Inheritance/test.cpp.s
@@ -596,35 +1523,143 @@ OOP/Inheritance/test.s: OOP/Inheritance/test.cpp.s
 
 # target to generate assembly for a file
 OOP/Inheritance/test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/OOP/Inheritance/test.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main9.dir/build.make CMakeFiles/main9.dir/OOP/Inheritance/test.cpp.s
 .PHONY : OOP/Inheritance/test.cpp.s
 
-main.o: main.cpp.o
+OverloadAndConvertion/ClassTypeConversion.o: OverloadAndConvertion/ClassTypeConversion.cpp.o
 
-.PHONY : main.o
+.PHONY : OverloadAndConvertion/ClassTypeConversion.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__Prime.dir/build.make CMakeFiles/C__Prime.dir/main.cpp.o
-.PHONY : main.cpp.o
+OverloadAndConvertion/ClassTypeConversion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main10.dir/build.make CMakeFiles/main10.dir/OverloadAndConvertion/ClassTypeConversion.cpp.o
+.PHONY : OverloadAndConvertion/ClassTypeConversion.cpp.o
 
-main.i: main.cpp.i
+OverloadAndConvertion/ClassTypeConversion.i: OverloadAndConvertion/ClassTypeConversion.cpp.i
 
-.PHONY : main.i
+.PHONY : OverloadAndConvertion/ClassTypeConversion.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__Prime.dir/build.make CMakeFiles/C__Prime.dir/main.cpp.i
-.PHONY : main.cpp.i
+OverloadAndConvertion/ClassTypeConversion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main10.dir/build.make CMakeFiles/main10.dir/OverloadAndConvertion/ClassTypeConversion.cpp.i
+.PHONY : OverloadAndConvertion/ClassTypeConversion.cpp.i
 
-main.s: main.cpp.s
+OverloadAndConvertion/ClassTypeConversion.s: OverloadAndConvertion/ClassTypeConversion.cpp.s
 
-.PHONY : main.s
+.PHONY : OverloadAndConvertion/ClassTypeConversion.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__Prime.dir/build.make CMakeFiles/C__Prime.dir/main.cpp.s
-.PHONY : main.cpp.s
+OverloadAndConvertion/ClassTypeConversion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main10.dir/build.make CMakeFiles/main10.dir/OverloadAndConvertion/ClassTypeConversion.cpp.s
+.PHONY : OverloadAndConvertion/ClassTypeConversion.cpp.s
+
+OverloadAndConvertion/FunctionCallOperator.o: OverloadAndConvertion/FunctionCallOperator.cpp.o
+
+.PHONY : OverloadAndConvertion/FunctionCallOperator.o
+
+# target to build an object file
+OverloadAndConvertion/FunctionCallOperator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main10.dir/build.make CMakeFiles/main10.dir/OverloadAndConvertion/FunctionCallOperator.cpp.o
+.PHONY : OverloadAndConvertion/FunctionCallOperator.cpp.o
+
+OverloadAndConvertion/FunctionCallOperator.i: OverloadAndConvertion/FunctionCallOperator.cpp.i
+
+.PHONY : OverloadAndConvertion/FunctionCallOperator.i
+
+# target to preprocess a source file
+OverloadAndConvertion/FunctionCallOperator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main10.dir/build.make CMakeFiles/main10.dir/OverloadAndConvertion/FunctionCallOperator.cpp.i
+.PHONY : OverloadAndConvertion/FunctionCallOperator.cpp.i
+
+OverloadAndConvertion/FunctionCallOperator.s: OverloadAndConvertion/FunctionCallOperator.cpp.s
+
+.PHONY : OverloadAndConvertion/FunctionCallOperator.s
+
+# target to generate assembly for a file
+OverloadAndConvertion/FunctionCallOperator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main10.dir/build.make CMakeFiles/main10.dir/OverloadAndConvertion/FunctionCallOperator.cpp.s
+.PHONY : OverloadAndConvertion/FunctionCallOperator.cpp.s
+
+OverloadAndConvertion/OverLoadOperator.o: OverloadAndConvertion/OverLoadOperator.cpp.o
+
+.PHONY : OverloadAndConvertion/OverLoadOperator.o
+
+# target to build an object file
+OverloadAndConvertion/OverLoadOperator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main10.dir/build.make CMakeFiles/main10.dir/OverloadAndConvertion/OverLoadOperator.cpp.o
+.PHONY : OverloadAndConvertion/OverLoadOperator.cpp.o
+
+OverloadAndConvertion/OverLoadOperator.i: OverloadAndConvertion/OverLoadOperator.cpp.i
+
+.PHONY : OverloadAndConvertion/OverLoadOperator.i
+
+# target to preprocess a source file
+OverloadAndConvertion/OverLoadOperator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main10.dir/build.make CMakeFiles/main10.dir/OverloadAndConvertion/OverLoadOperator.cpp.i
+.PHONY : OverloadAndConvertion/OverLoadOperator.cpp.i
+
+OverloadAndConvertion/OverLoadOperator.s: OverloadAndConvertion/OverLoadOperator.cpp.s
+
+.PHONY : OverloadAndConvertion/OverLoadOperator.s
+
+# target to generate assembly for a file
+OverloadAndConvertion/OverLoadOperator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main10.dir/build.make CMakeFiles/main10.dir/OverloadAndConvertion/OverLoadOperator.cpp.s
+.PHONY : OverloadAndConvertion/OverLoadOperator.cpp.s
+
+STL/Array/Array.o: STL/Array/Array.cpp.o
+
+.PHONY : STL/Array/Array.o
+
+# target to build an object file
+STL/Array/Array.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main11.dir/build.make CMakeFiles/main11.dir/STL/Array/Array.cpp.o
+.PHONY : STL/Array/Array.cpp.o
+
+STL/Array/Array.i: STL/Array/Array.cpp.i
+
+.PHONY : STL/Array/Array.i
+
+# target to preprocess a source file
+STL/Array/Array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main11.dir/build.make CMakeFiles/main11.dir/STL/Array/Array.cpp.i
+.PHONY : STL/Array/Array.cpp.i
+
+STL/Array/Array.s: STL/Array/Array.cpp.s
+
+.PHONY : STL/Array/Array.s
+
+# target to generate assembly for a file
+STL/Array/Array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main11.dir/build.make CMakeFiles/main11.dir/STL/Array/Array.cpp.s
+.PHONY : STL/Array/Array.cpp.s
+
+STL/Forward_List/forward_list.o: STL/Forward_List/forward_list.cpp.o
+
+.PHONY : STL/Forward_List/forward_list.o
+
+# target to build an object file
+STL/Forward_List/forward_list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main11.dir/build.make CMakeFiles/main11.dir/STL/Forward_List/forward_list.cpp.o
+.PHONY : STL/Forward_List/forward_list.cpp.o
+
+STL/Forward_List/forward_list.i: STL/Forward_List/forward_list.cpp.i
+
+.PHONY : STL/Forward_List/forward_list.i
+
+# target to preprocess a source file
+STL/Forward_List/forward_list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main11.dir/build.make CMakeFiles/main11.dir/STL/Forward_List/forward_list.cpp.i
+.PHONY : STL/Forward_List/forward_list.cpp.i
+
+STL/Forward_List/forward_list.s: STL/Forward_List/forward_list.cpp.s
+
+.PHONY : STL/Forward_List/forward_list.s
+
+# target to generate assembly for a file
+STL/Forward_List/forward_list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main11.dir/build.make CMakeFiles/main11.dir/STL/Forward_List/forward_list.cpp.s
+.PHONY : STL/Forward_List/forward_list.cpp.s
 
 # Help Target
 help:
@@ -634,11 +1669,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... C__Prime"
+	@echo "... main0"
 	@echo "... main1"
 	@echo "... main10"
 	@echo "... main11"
 	@echo "... main12"
+	@echo "... main13"
+	@echo "... main14"
+	@echo "... main15"
 	@echo "... main2"
 	@echo "... main3"
 	@echo "... main4"
@@ -647,42 +1685,153 @@ help:
 	@echo "... main7"
 	@echo "... main8"
 	@echo "... main9"
-	@echo "... Class.o"
-	@echo "... Class.i"
-	@echo "... Class.s"
+	@echo "... C++_basic_theory/Const/Const.o"
+	@echo "... C++_basic_theory/Const/Const.i"
+	@echo "... C++_basic_theory/Const/Const.s"
+	@echo "... C++_basic_theory/Pointer/Pointer.o"
+	@echo "... C++_basic_theory/Pointer/Pointer.i"
+	@echo "... C++_basic_theory/Pointer/Pointer.s"
+	@echo "... C++_basic_theory/Reference/Reference.o"
+	@echo "... C++_basic_theory/Reference/Reference.i"
+	@echo "... C++_basic_theory/Reference/Reference.s"
+	@echo "... C++_basic_theory/Type/Type.o"
+	@echo "... C++_basic_theory/Type/Type.i"
+	@echo "... C++_basic_theory/Type/Type.s"
 	@echo "... Copy_control/Copy/Copy_Assignment_Operator.o"
 	@echo "... Copy_control/Copy/Copy_Assignment_Operator.i"
 	@echo "... Copy_control/Copy/Copy_Assignment_Operator.s"
+	@echo "... Copy_control/Copy/Copy_Constructor.o"
+	@echo "... Copy_control/Copy/Copy_Constructor.i"
+	@echo "... Copy_control/Copy/Copy_Constructor.s"
+	@echo "... Copy_control/Copy_Control/Class_Act_As_Ptr.o"
+	@echo "... Copy_control/Copy_Control/Class_Act_As_Ptr.i"
+	@echo "... Copy_control/Copy_Control/Class_Act_As_Ptr.s"
+	@echo "... Copy_control/Copy_Control/Class_Act_As_Value.o"
+	@echo "... Copy_control/Copy_Control/Class_Act_As_Value.i"
+	@echo "... Copy_control/Copy_Control/Class_Act_As_Value.s"
+	@echo "... Copy_control/Copy_Control/Copy_Control_Example.o"
+	@echo "... Copy_control/Copy_Control/Copy_Control_Example.i"
+	@echo "... Copy_control/Copy_Control/Copy_Control_Example.s"
+	@echo "... Copy_control/Copy_Control/Rule_Of_Three_Or_Five.o"
+	@echo "... Copy_control/Copy_Control/Rule_Of_Three_Or_Five.i"
+	@echo "... Copy_control/Copy_Control/Rule_Of_Three_Or_Five.s"
+	@echo "... Copy_control/Copy_Control/Swap.o"
+	@echo "... Copy_control/Copy_Control/Swap.i"
+	@echo "... Copy_control/Copy_Control/Swap.s"
 	@echo "... Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.o"
 	@echo "... Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.i"
 	@echo "... Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.s"
+	@echo "... Copy_control/Move/Move.o"
+	@echo "... Copy_control/Move/Move.i"
+	@echo "... Copy_control/Move/Move.s"
+	@echo "... Copy_control/Move/Move_Iterator.o"
+	@echo "... Copy_control/Move/Move_Iterator.i"
+	@echo "... Copy_control/Move/Move_Iterator.s"
 	@echo "... Copy_control/Move/Rvalue_Reference.o"
 	@echo "... Copy_control/Move/Rvalue_Reference.i"
 	@echo "... Copy_control/Move/Rvalue_Reference.s"
 	@echo "... Copy_control/Move/Rvalue_Reference_for_Class_Member.o"
 	@echo "... Copy_control/Move/Rvalue_Reference_for_Class_Member.i"
 	@echo "... Copy_control/Move/Rvalue_Reference_for_Class_Member.s"
+	@echo "... Dynamic_Memory/Delete.o"
+	@echo "... Dynamic_Memory/Delete.i"
+	@echo "... Dynamic_Memory/Delete.s"
+	@echo "... Dynamic_Memory/Dynamic_Memory_Example.o"
+	@echo "... Dynamic_Memory/Dynamic_Memory_Example.i"
+	@echo "... Dynamic_Memory/Dynamic_Memory_Example.s"
+	@echo "... Dynamic_Memory/New.o"
+	@echo "... Dynamic_Memory/New.i"
+	@echo "... Dynamic_Memory/New.s"
+	@echo "... Dynamic_Memory/Shared_Ptr.o"
+	@echo "... Dynamic_Memory/Shared_Ptr.i"
+	@echo "... Dynamic_Memory/Shared_Ptr.s"
 	@echo "... Dynamic_Memory/Shared_Ptr_And_New.o"
 	@echo "... Dynamic_Memory/Shared_Ptr_And_New.i"
 	@echo "... Dynamic_Memory/Shared_Ptr_And_New.s"
 	@echo "... Dynamic_Memory/allocator.o"
 	@echo "... Dynamic_Memory/allocator.i"
 	@echo "... Dynamic_Memory/allocator.s"
+	@echo "... Flow_Control/Condition_and_Branch.o"
+	@echo "... Flow_Control/Condition_and_Branch.i"
+	@echo "... Flow_Control/Condition_and_Branch.s"
+	@echo "... Flow_Control/Flow_Control.o"
+	@echo "... Flow_Control/Flow_Control.i"
+	@echo "... Flow_Control/Flow_Control.s"
+	@echo "... Flow_Control/Input_and_Output.o"
+	@echo "... Flow_Control/Input_and_Output.i"
+	@echo "... Flow_Control/Input_and_Output.s"
+	@echo "... Flow_Control/Loop.o"
+	@echo "... Flow_Control/Loop.i"
+	@echo "... Flow_Control/Loop.s"
+	@echo "... Generic_Algorithm/Introduction.o"
+	@echo "... Generic_Algorithm/Introduction.i"
+	@echo "... Generic_Algorithm/Introduction.s"
+	@echo "... Generic_Algorithm/Iterator.o"
+	@echo "... Generic_Algorithm/Iterator.i"
+	@echo "... Generic_Algorithm/Iterator.s"
+	@echo "... Generic_Algorithm/Lambda_Expression/Bind.o"
+	@echo "... Generic_Algorithm/Lambda_Expression/Bind.i"
+	@echo "... Generic_Algorithm/Lambda_Expression/Bind.s"
+	@echo "... Generic_Algorithm/Lambda_Expression/Capture_outside_variable.o"
+	@echo "... Generic_Algorithm/Lambda_Expression/Capture_outside_variable.i"
+	@echo "... Generic_Algorithm/Lambda_Expression/Capture_outside_variable.s"
+	@echo "... Generic_Algorithm/Lambda_Expression/Lamdba_Basic.o"
+	@echo "... Generic_Algorithm/Lambda_Expression/Lamdba_Basic.i"
+	@echo "... Generic_Algorithm/Lambda_Expression/Lamdba_Basic.s"
+	@echo "... Generic_programming_and_template/Class_template.o"
+	@echo "... Generic_programming_and_template/Class_template.i"
+	@echo "... Generic_programming_and_template/Class_template.s"
+	@echo "... Generic_programming_and_template/Function_template.o"
+	@echo "... Generic_programming_and_template/Function_template.i"
+	@echo "... Generic_programming_and_template/Function_template.s"
+	@echo "... Generic_programming_and_template/Template_param.o"
+	@echo "... Generic_programming_and_template/Template_param.i"
+	@echo "... Generic_programming_and_template/Template_param.s"
+	@echo "... Generic_programming_and_template/Template_param_introduction.o"
+	@echo "... Generic_programming_and_template/Template_param_introduction.i"
+	@echo "... Generic_programming_and_template/Template_param_introduction.s"
+	@echo "... Generic_programming_and_template/Variadic_template.o"
+	@echo "... Generic_programming_and_template/Variadic_template.i"
+	@echo "... Generic_programming_and_template/Variadic_template.s"
+	@echo "... OOP/Copy_Control/Constructor_Inheritance.o"
+	@echo "... OOP/Copy_Control/Constructor_Inheritance.i"
+	@echo "... OOP/Copy_Control/Constructor_Inheritance.s"
 	@echo "... OOP/Copy_Control/Copy_Control_And_Inheritance.o"
 	@echo "... OOP/Copy_Control/Copy_Control_And_Inheritance.i"
 	@echo "... OOP/Copy_Control/Copy_Control_And_Inheritance.s"
+	@echo "... OOP/Copy_Control/Virtual_Deconstructor.o"
+	@echo "... OOP/Copy_Control/Virtual_Deconstructor.i"
+	@echo "... OOP/Copy_Control/Virtual_Deconstructor.s"
+	@echo "... OOP/Inheritance/Inheritance.o"
+	@echo "... OOP/Inheritance/Inheritance.i"
+	@echo "... OOP/Inheritance/Inheritance.s"
 	@echo "... OOP/Inheritance/Scope.o"
 	@echo "... OOP/Inheritance/Scope.i"
 	@echo "... OOP/Inheritance/Scope.s"
+	@echo "... OOP/Inheritance/Virtual_Function.o"
+	@echo "... OOP/Inheritance/Virtual_Function.i"
+	@echo "... OOP/Inheritance/Virtual_Function.s"
 	@echo "... OOP/Inheritance/Visability.o"
 	@echo "... OOP/Inheritance/Visability.i"
 	@echo "... OOP/Inheritance/Visability.s"
 	@echo "... OOP/Inheritance/test.o"
 	@echo "... OOP/Inheritance/test.i"
 	@echo "... OOP/Inheritance/test.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... OverloadAndConvertion/ClassTypeConversion.o"
+	@echo "... OverloadAndConvertion/ClassTypeConversion.i"
+	@echo "... OverloadAndConvertion/ClassTypeConversion.s"
+	@echo "... OverloadAndConvertion/FunctionCallOperator.o"
+	@echo "... OverloadAndConvertion/FunctionCallOperator.i"
+	@echo "... OverloadAndConvertion/FunctionCallOperator.s"
+	@echo "... OverloadAndConvertion/OverLoadOperator.o"
+	@echo "... OverloadAndConvertion/OverLoadOperator.i"
+	@echo "... OverloadAndConvertion/OverLoadOperator.s"
+	@echo "... STL/Array/Array.o"
+	@echo "... STL/Array/Array.i"
+	@echo "... STL/Array/Array.s"
+	@echo "... STL/Forward_List/forward_list.o"
+	@echo "... STL/Forward_List/forward_list.i"
+	@echo "... STL/Forward_List/forward_list.s"
 .PHONY : help
 
 

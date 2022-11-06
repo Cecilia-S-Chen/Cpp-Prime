@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shuochen/C++Prime/Generic Algorithm/Iterator/Iterator.cpp
+iostream
+-
+list
+-
+numeric
+-
+vector
+-
+

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shuochen/C++Prime/OOP/Inheritance/Virtual Function.cpp
+iostream
+-
+
+/Users/shuochen/C++Prime/OOP/Inheritance/Visability.cpp
+iostream
+-
+

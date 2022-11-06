@@ -24,18 +24,19 @@ using namespace std;
 
 class Base1 {
 public:
-    void pub_mem1();
+    void pub_mem1(){};
 protected:
-    int prot_mem1();
+    int prot_mem1(){};
 private:
-    char priv_mem1();
+    char priv_mem1(){};
 };
+
 
 class Pub_Deriv1 : public Base1 {
     // 正确：派生类能访问protected成员
     int f() {return prot_mem1();}
     // 错误：派生类不能访问private成员
-    char g() {return priv_mem1();}
+    // char g() {return priv_mem1();}
 };
 
 class Priv_Deriv1 : private Base1 {
@@ -43,11 +44,11 @@ class Priv_Deriv1 : private Base1 {
     int f1() {return prot_mem1();}
 };
 
-int main() {
+int main5() {
     Pub_Deriv1 pub;
     Priv_Deriv1 priv;
     pub.pub_mem1(); // 正确：pub_mem在派生类中是public的
-    priv.pub_mem1(); // 错误：pub_mem在派生类中是private的
+    // priv.pub_mem1(); // 错误：pub_mem在派生类中是private的
 }
 
 /* protected:
@@ -73,10 +74,14 @@ void clobber(Sneaky& s) {
     s.j =s.prot_mem2 =0;
 }
 
-// 错误：clobber不能访问Base的protected成员
-void clobber(Base2& b) {
-    b.prot_mem2 = 0;
+void clobber(Base2 &) {
+
 }
+
+// 错误：clobber不能访问Base的protected成员
+//void clobber(Base2& b) {
+//    b.prot_mem2 = 0;
+//}
 
 /*
  * 派生类向基类转化的可访问性
@@ -114,9 +119,9 @@ public:
 
 class Private_Derived3 : public Derived3 {
 public:
-    void BaseToDerived3(Derived3& d) { //Con3，类的派生类，私有继承不能转化
-        Base3 &b = d;
-    }
+//    void BaseToDerived3(Derived3& d) { //Con3，类的派生类，私有继承不能转化
+//        Base3 &b = d;
+//    }
 };
 
 /*

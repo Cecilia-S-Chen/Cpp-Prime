@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/shuochen/C++Prime/OOP/Inheritance/Scope.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main4.dir/OOP/Inheritance/Scope.cpp.o"
+  "/Users/shuochen/C++Prime/Copy control/Move/Move.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main4.dir/Copy_control/Move/Move.cpp.o"
+  "/Users/shuochen/C++Prime/Copy control/Move/Move Iterator.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main4.dir/Copy_control/Move/Move_Iterator.cpp.o"
+  "/Users/shuochen/C++Prime/Copy control/Move/Rvalue Reference.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference.cpp.o"
+  "/Users/shuochen/C++Prime/Copy control/Move/Rvalue Reference for Class Member.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

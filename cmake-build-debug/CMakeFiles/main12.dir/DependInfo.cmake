@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/shuochen/C++Prime/Class.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main12.dir/Class.cpp.o"
+  "/Users/shuochen/C++Prime/Generic Algorithm/Introduction.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main12.dir/Generic_Algorithm/Introduction.cpp.o"
+  "/Users/shuochen/C++Prime/Generic Algorithm/Iterator.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main12.dir/Generic_Algorithm/Iterator.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

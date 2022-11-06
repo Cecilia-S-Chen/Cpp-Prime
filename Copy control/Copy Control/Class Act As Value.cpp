@@ -27,7 +27,7 @@ public:
     HasPtr(const string &s = string()) : ps(new string(s)), i(0) {};
     HasPtr(const HasPtr& rhs) : ps(new string(*rhs.ps)), i(rhs.i) {};
     HasPtr& operator=(const HasPtr& rhs);
-    ~HasPtr() {delete ps};
+    ~HasPtr() {delete ps;};
 
 private:
     string *ps;
@@ -36,7 +36,7 @@ private:
 
 // 正确的拷贝赋值运算符定义
 HasPtr& HasPtr::operator=(const HasPtr &rhs) {
-    new_ps = new string(*rhs.ps); // 创建临时变量，是为了自拷贝时的安全性！！
+    auto new_ps = new string(*rhs.ps); // 创建临时变量，是为了自拷贝时的安全性！！
     delete ps;
     ps = new_ps;
     i = rhs.i;

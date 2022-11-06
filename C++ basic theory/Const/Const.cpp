@@ -1,5 +1,3 @@
-
-
 #include <iostream>
 using namespace std;
 
@@ -47,7 +45,7 @@ bool Compare2(int num1, int num2) // fun4
 }
 
 
-int main() {
+int main1() {
     const double pi = 3.14;
     double d = 2.123;
     double d2 = 3.123;

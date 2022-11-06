@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/shuochen/C++Prime/OOP/Inheritance/test.cpp
+/Users/shuochen/C++Prime/Copy control/Copy Control/Rule Of Three Or Five.cpp
 iostream
+-
+string
 -
 

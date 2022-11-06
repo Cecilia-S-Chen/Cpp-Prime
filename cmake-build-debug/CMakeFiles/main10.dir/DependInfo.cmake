@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/shuochen/C++Prime/OOP/Copy Control/Copy Control And Inheritance.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main10.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o"
+  "/Users/shuochen/C++Prime/OverloadAndConvertion/ClassTypeConversion.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main10.dir/OverloadAndConvertion/ClassTypeConversion.cpp.o"
+  "/Users/shuochen/C++Prime/OverloadAndConvertion/FunctionCallOperator.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main10.dir/OverloadAndConvertion/FunctionCallOperator.cpp.o"
+  "/Users/shuochen/C++Prime/OverloadAndConvertion/OverLoadOperator.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main10.dir/OverloadAndConvertion/OverLoadOperator.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -77,30 +77,60 @@ include CMakeFiles/main5.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main5.dir/flags.make
 
-CMakeFiles/main5.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o: CMakeFiles/main5.dir/flags.make
-CMakeFiles/main5.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o: ../Copy\ control/Dynamic\ Memory\ Management/Dynamic\ Memory\ Management.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main5.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main5.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o -c "/Users/shuochen/C++Prime/Copy control/Dynamic Memory Management/Dynamic Memory Management.cpp"
+CMakeFiles/main5.dir/Dynamic_Memory/allocator.cpp.o: CMakeFiles/main5.dir/flags.make
+CMakeFiles/main5.dir/Dynamic_Memory/allocator.cpp.o: ../Dynamic\ Memory/allocator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main5.dir/Dynamic_Memory/allocator.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main5.dir/Dynamic_Memory/allocator.cpp.o -c "/Users/shuochen/C++Prime/Dynamic Memory/allocator.cpp"
 
-CMakeFiles/main5.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main5.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Copy control/Dynamic Memory Management/Dynamic Memory Management.cpp" > CMakeFiles/main5.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.i
+CMakeFiles/main5.dir/Dynamic_Memory/allocator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main5.dir/Dynamic_Memory/allocator.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Dynamic Memory/allocator.cpp" > CMakeFiles/main5.dir/Dynamic_Memory/allocator.cpp.i
 
-CMakeFiles/main5.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main5.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Copy control/Dynamic Memory Management/Dynamic Memory Management.cpp" -o CMakeFiles/main5.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s
+CMakeFiles/main5.dir/Dynamic_Memory/allocator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main5.dir/Dynamic_Memory/allocator.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Dynamic Memory/allocator.cpp" -o CMakeFiles/main5.dir/Dynamic_Memory/allocator.cpp.s
+
+CMakeFiles/main5.dir/Dynamic_Memory/Delete.cpp.o: CMakeFiles/main5.dir/flags.make
+CMakeFiles/main5.dir/Dynamic_Memory/Delete.cpp.o: ../Dynamic\ Memory/Delete.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main5.dir/Dynamic_Memory/Delete.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main5.dir/Dynamic_Memory/Delete.cpp.o -c "/Users/shuochen/C++Prime/Dynamic Memory/Delete.cpp"
+
+CMakeFiles/main5.dir/Dynamic_Memory/Delete.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main5.dir/Dynamic_Memory/Delete.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Dynamic Memory/Delete.cpp" > CMakeFiles/main5.dir/Dynamic_Memory/Delete.cpp.i
+
+CMakeFiles/main5.dir/Dynamic_Memory/Delete.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main5.dir/Dynamic_Memory/Delete.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Dynamic Memory/Delete.cpp" -o CMakeFiles/main5.dir/Dynamic_Memory/Delete.cpp.s
+
+CMakeFiles/main5.dir/Dynamic_Memory/New.cpp.o: CMakeFiles/main5.dir/flags.make
+CMakeFiles/main5.dir/Dynamic_Memory/New.cpp.o: ../Dynamic\ Memory/New.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main5.dir/Dynamic_Memory/New.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main5.dir/Dynamic_Memory/New.cpp.o -c "/Users/shuochen/C++Prime/Dynamic Memory/New.cpp"
+
+CMakeFiles/main5.dir/Dynamic_Memory/New.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main5.dir/Dynamic_Memory/New.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Dynamic Memory/New.cpp" > CMakeFiles/main5.dir/Dynamic_Memory/New.cpp.i
+
+CMakeFiles/main5.dir/Dynamic_Memory/New.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main5.dir/Dynamic_Memory/New.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Dynamic Memory/New.cpp" -o CMakeFiles/main5.dir/Dynamic_Memory/New.cpp.s
 
 # Object files for target main5
 main5_OBJECTS = \
-"CMakeFiles/main5.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o"
+"CMakeFiles/main5.dir/Dynamic_Memory/allocator.cpp.o" \
+"CMakeFiles/main5.dir/Dynamic_Memory/Delete.cpp.o" \
+"CMakeFiles/main5.dir/Dynamic_Memory/New.cpp.o"
 
 # External object files for target main5
 main5_EXTERNAL_OBJECTS =
 
-main5: CMakeFiles/main5.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o
+main5: CMakeFiles/main5.dir/Dynamic_Memory/allocator.cpp.o
+main5: CMakeFiles/main5.dir/Dynamic_Memory/Delete.cpp.o
+main5: CMakeFiles/main5.dir/Dynamic_Memory/New.cpp.o
 main5: CMakeFiles/main5.dir/build.make
 main5: CMakeFiles/main5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable main5"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

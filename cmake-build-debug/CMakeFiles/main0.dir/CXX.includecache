@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shuochen/C++Prime/C++ basic theory/Const/Const.cpp
+iostream
+-
+
+/Users/shuochen/C++Prime/C++ basic theory/Pointer/Pointer.cpp
+iostream
+-
+
+/Users/shuochen/C++Prime/C++ basic theory/Reference/Reference.cpp
+iostream
+-
+
+/Users/shuochen/C++Prime/C++ basic theory/Type/Type.cpp
+iostream
+-
+

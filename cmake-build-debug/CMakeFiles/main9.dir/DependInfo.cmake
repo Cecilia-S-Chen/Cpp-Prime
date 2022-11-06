@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/shuochen/C++Prime/Copy control/Move/Rvalue Reference for Class Member.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main9.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o"
+  "/Users/shuochen/C++Prime/OOP/Inheritance/Inheritance.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main9.dir/OOP/Inheritance/Inheritance.cpp.o"
+  "/Users/shuochen/C++Prime/OOP/Inheritance/Scope.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main9.dir/OOP/Inheritance/Scope.cpp.o"
+  "/Users/shuochen/C++Prime/OOP/Inheritance/Virtual Function.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main9.dir/OOP/Inheritance/Virtual_Function.cpp.o"
+  "/Users/shuochen/C++Prime/OOP/Inheritance/Visability.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main9.dir/OOP/Inheritance/Visability.cpp.o"
+  "/Users/shuochen/C++Prime/OOP/Inheritance/test.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main9.dir/OOP/Inheritance/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

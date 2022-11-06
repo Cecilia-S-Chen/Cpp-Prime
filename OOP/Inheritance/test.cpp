@@ -20,7 +20,7 @@ private:
     int pri_derived_mem;
 };
 
-int main() {
+int main3() {
     Derived(1,2,3);
 }
 

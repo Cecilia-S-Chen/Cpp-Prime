@@ -58,7 +58,11 @@ private:
 
 };
 
-int main() {
+double Bulk_quote::net_price(size_t n) const {
+    return (price * min_qty) * discount;
+}
+
+int main4() {
     Bulk_quote bulkQuote;
     Quote *item = &bulkQuote;
     /*
@@ -67,6 +71,6 @@ int main() {
      *  方法：在调用成员函数前加上作用域符
      *  例子：通过加 Quote：： 明确调用父类的net_price，不论item指向父类还是子类对象
      */
-    item->Quote::net_price()
+    // item->Quote::net_price();
 }
 

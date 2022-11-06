@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main11.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.o"
+  "CMakeFiles/main11.dir/STL/Array/Array.cpp.o"
+  "CMakeFiles/main11.dir/STL/Forward_List/forward_list.cpp.o"
   "main11"
   "main11.pdb"
 )

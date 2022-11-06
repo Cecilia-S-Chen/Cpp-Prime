@@ -48,3 +48,33 @@ multiset<Sales_data, decltype(compareIsbn)*> bookstore(compareIsbn);
 |pair<T1, T2>p = {v1, v2}|对pair进行隐式初始化|
 |make_pair(v1, v2)|返回用v1和v2初始化的pair，成员数据的类型从v1，v2推断出来|
 |p1 == p2 和 p1 != p2|==说明first和second成员分别相等|
+
+
+#无序容器
+
+## 无序容器的储存
+1. 无序容器在储存组织上为一组桶。元素通过hash函数映射到桶，然后桶内的元素在按照顺序排序；
+2. 无序容器的性能依赖hash函数的质量和桶的数量和大小；
+
+## 无序容器管理操作
+
+|无序容器管理操作||
+|------|------|
+|桶接口||
+|c.bucket_count()|正在使用的桶的数目|
+|c.max_bucket_count()|容器能容纳的最多的桶的数量|
+|c.bucket_size(n)|第n个桶有多少个元素|
+|c.bucket(k)|关键字为k的元素在哪个桶中|
+|桶迭代||
+|local_iterator|访问桶中元素的迭代器类型|
+|const_local_iterator|桶中元素迭代器的const版本|
+|c.begin(n), c.end(n)|桶n的首元素迭代器和尾后迭代器|
+|c.cbegin(n), c.cend(n)|桶n的首元素const迭代器和const尾后迭代器|
+|c.load_factor()|每个桶的平均元素数量，返回float类型|
+|c.max_load_factor()||
+|c.rehash(n)||
+|c.reserve(n)|重组储存，使得c可以保存n个元素且不必rehash|
+
+* 当无序容器中的元素为自定义类型时，必须提供：
+1. hash值计算函数
+2. 自定义==运算符

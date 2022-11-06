@@ -77,27 +77,27 @@ include CMakeFiles/main3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main3.dir/flags.make
 
-CMakeFiles/main3.dir/OOP/Inheritance/Visability.cpp.o: CMakeFiles/main3.dir/flags.make
-CMakeFiles/main3.dir/OOP/Inheritance/Visability.cpp.o: ../OOP/Inheritance/Visability.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main3.dir/OOP/Inheritance/Visability.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main3.dir/OOP/Inheritance/Visability.cpp.o -c /Users/shuochen/C++Prime/OOP/Inheritance/Visability.cpp
+CMakeFiles/main3.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o: CMakeFiles/main3.dir/flags.make
+CMakeFiles/main3.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o: ../Copy\ control/Dynamic\ Memory\ Management/Dynamic\ Memory\ Management.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main3.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main3.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o -c "/Users/shuochen/C++Prime/Copy control/Dynamic Memory Management/Dynamic Memory Management.cpp"
 
-CMakeFiles/main3.dir/OOP/Inheritance/Visability.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main3.dir/OOP/Inheritance/Visability.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shuochen/C++Prime/OOP/Inheritance/Visability.cpp > CMakeFiles/main3.dir/OOP/Inheritance/Visability.cpp.i
+CMakeFiles/main3.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main3.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Copy control/Dynamic Memory Management/Dynamic Memory Management.cpp" > CMakeFiles/main3.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.i
 
-CMakeFiles/main3.dir/OOP/Inheritance/Visability.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main3.dir/OOP/Inheritance/Visability.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shuochen/C++Prime/OOP/Inheritance/Visability.cpp -o CMakeFiles/main3.dir/OOP/Inheritance/Visability.cpp.s
+CMakeFiles/main3.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main3.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Copy control/Dynamic Memory Management/Dynamic Memory Management.cpp" -o CMakeFiles/main3.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s
 
 # Object files for target main3
 main3_OBJECTS = \
-"CMakeFiles/main3.dir/OOP/Inheritance/Visability.cpp.o"
+"CMakeFiles/main3.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o"
 
 # External object files for target main3
 main3_EXTERNAL_OBJECTS =
 
-main3: CMakeFiles/main3.dir/OOP/Inheritance/Visability.cpp.o
+main3: CMakeFiles/main3.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o
 main3: CMakeFiles/main3.dir/build.make
 main3: CMakeFiles/main3.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main3"

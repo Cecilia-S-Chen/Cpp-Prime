@@ -18,7 +18,7 @@ using namespace std;
  * (1)allocator是模版，指明对象的类型，使allocator根据对象类型来确定分配内存大小和对齐位置
  *
  * 4、allocator类的相关算法
- *  （1）allocator<T> a:定义了allocator的对象a，a可以为类型T的对象分配内存
+ *  （1）allocator<T1> a:定义了allocator的对象a，a可以为类型T的对象分配内存
  *  （2）a.allocate(n) :分配内存，用来保存n个类型为T的对象。返回指向这块内存的指针p
  *  （3）a.deallocate(p,n) :释放从T*指针p中开始的内存，这块内存保存了n个类型为T的对象
  *      p必须是一个先前由allocate返回的头指针
@@ -33,15 +33,15 @@ using namespace std;
  *  (1)功能：在**未初始化内存**中创建对象
  *  (2)定义位置：memory
  * （3）算法定义：这些函数在 给定目的位置 创建元素，而不是由系统分配内存给它们
- *      T* unintialized_copy(b,e,b2) :从迭代器b，e指向的 输入范围中（通过首位指针确定拷贝范围） 拷贝元素到迭代器b2指定的**未构造**的原始内存中，b2指向的内存必须足够大！
+ *      T1* unintialized_copy(b,e,b2) :从迭代器b，e指向的 输入范围中（通过首位指针确定拷贝范围） 拷贝元素到迭代器b2指定的**未构造**的原始内存中，b2指向的内存必须足够大！
  *      能容纳元素的拷贝.
- *      T* uninitialized_copy_n(b,n,b2):从迭代器b指向的元素开始，拷贝n个元素（通过首指针和元素个数，确定拷贝范围）到b2开始的内存中
+ *      T1* uninitialized_copy_n(b,n,b2):从迭代器b指向的元素开始，拷贝n个元素（通过首指针和元素个数，确定拷贝范围）到b2开始的内存中
  *      void unintialized_fill(b,e,t): 在迭代器b和e指定的原始内存范围中创建对象，对象的值均为**t的拷贝**
  *      void unintialized_fill_n(b,n,t):从迭代器b指向的内存开始创建n个对象，对象的值均为t的拷贝
  *
  */
 
-int main()
+int main1()
 {
     //----------------------------allocator类算法-----------------------------------------------------------
     int n = 50;
@@ -58,11 +58,9 @@ int main()
 
     //----------------------------allocator类伴随算法--------------------------------------------------------
     vector<int> vi = {1, 2, 3, 4, 5};
-    auto p = alloc.allocate(vi.size() * 2);
-    auto q = uninitialized_copy(vi.begin(), vi.end(), p); //函数返回指向最后一个元素之后的指针
-    uninitialized_fill_n(q, vi.size(), 42); //将返回的指针q传递给fill函数
-
-
-
+    allocator<int> alloc_i;
+    auto p2 = alloc_i.allocate(vi.size() * 2);
+    auto q2 = uninitialized_copy(vi.begin(), vi.end(), p2); //函数返回指向最后一个元素之后的指针
+    uninitialized_fill_n(q2, vi.size(), 42); //将返回的指针q传递给fill函数
 }
 

@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main4.dir/OOP/Inheritance/Scope.cpp.o"
+  "CMakeFiles/main4.dir/Copy_control/Move/Move.cpp.o"
+  "CMakeFiles/main4.dir/Copy_control/Move/Move_Iterator.cpp.o"
+  "CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference.cpp.o"
+  "CMakeFiles/main4.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o"
   "main4"
   "main4.pdb"
 )

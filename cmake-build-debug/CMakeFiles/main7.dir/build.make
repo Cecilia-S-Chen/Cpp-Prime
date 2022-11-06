@@ -77,30 +77,75 @@ include CMakeFiles/main7.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main7.dir/flags.make
 
-CMakeFiles/main7.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o: CMakeFiles/main7.dir/flags.make
-CMakeFiles/main7.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o: ../Copy\ control/Dynamic\ Memory\ Management/Dynamic\ Memory\ Management.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main7.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main7.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o -c "/Users/shuochen/C++Prime/Copy control/Dynamic Memory Management/Dynamic Memory Management.cpp"
+CMakeFiles/main7.dir/Flow_Control/Condition_and_Branch.cpp.o: CMakeFiles/main7.dir/flags.make
+CMakeFiles/main7.dir/Flow_Control/Condition_and_Branch.cpp.o: ../Flow\ Control/Condition\ and\ Branch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main7.dir/Flow_Control/Condition_and_Branch.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main7.dir/Flow_Control/Condition_and_Branch.cpp.o -c "/Users/shuochen/C++Prime/Flow Control/Condition and Branch.cpp"
 
-CMakeFiles/main7.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main7.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Copy control/Dynamic Memory Management/Dynamic Memory Management.cpp" > CMakeFiles/main7.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.i
+CMakeFiles/main7.dir/Flow_Control/Condition_and_Branch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main7.dir/Flow_Control/Condition_and_Branch.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Flow Control/Condition and Branch.cpp" > CMakeFiles/main7.dir/Flow_Control/Condition_and_Branch.cpp.i
 
-CMakeFiles/main7.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main7.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Copy control/Dynamic Memory Management/Dynamic Memory Management.cpp" -o CMakeFiles/main7.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.s
+CMakeFiles/main7.dir/Flow_Control/Condition_and_Branch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main7.dir/Flow_Control/Condition_and_Branch.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Flow Control/Condition and Branch.cpp" -o CMakeFiles/main7.dir/Flow_Control/Condition_and_Branch.cpp.s
+
+CMakeFiles/main7.dir/Flow_Control/Flow_Control.cpp.o: CMakeFiles/main7.dir/flags.make
+CMakeFiles/main7.dir/Flow_Control/Flow_Control.cpp.o: ../Flow\ Control/Flow\ Control.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main7.dir/Flow_Control/Flow_Control.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main7.dir/Flow_Control/Flow_Control.cpp.o -c "/Users/shuochen/C++Prime/Flow Control/Flow Control.cpp"
+
+CMakeFiles/main7.dir/Flow_Control/Flow_Control.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main7.dir/Flow_Control/Flow_Control.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Flow Control/Flow Control.cpp" > CMakeFiles/main7.dir/Flow_Control/Flow_Control.cpp.i
+
+CMakeFiles/main7.dir/Flow_Control/Flow_Control.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main7.dir/Flow_Control/Flow_Control.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Flow Control/Flow Control.cpp" -o CMakeFiles/main7.dir/Flow_Control/Flow_Control.cpp.s
+
+CMakeFiles/main7.dir/Flow_Control/Input_and_Output.cpp.o: CMakeFiles/main7.dir/flags.make
+CMakeFiles/main7.dir/Flow_Control/Input_and_Output.cpp.o: ../Flow\ Control/Input\ and\ Output.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main7.dir/Flow_Control/Input_and_Output.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main7.dir/Flow_Control/Input_and_Output.cpp.o -c "/Users/shuochen/C++Prime/Flow Control/Input and Output.cpp"
+
+CMakeFiles/main7.dir/Flow_Control/Input_and_Output.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main7.dir/Flow_Control/Input_and_Output.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Flow Control/Input and Output.cpp" > CMakeFiles/main7.dir/Flow_Control/Input_and_Output.cpp.i
+
+CMakeFiles/main7.dir/Flow_Control/Input_and_Output.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main7.dir/Flow_Control/Input_and_Output.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Flow Control/Input and Output.cpp" -o CMakeFiles/main7.dir/Flow_Control/Input_and_Output.cpp.s
+
+CMakeFiles/main7.dir/Flow_Control/Loop.cpp.o: CMakeFiles/main7.dir/flags.make
+CMakeFiles/main7.dir/Flow_Control/Loop.cpp.o: ../Flow\ Control/Loop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main7.dir/Flow_Control/Loop.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main7.dir/Flow_Control/Loop.cpp.o -c "/Users/shuochen/C++Prime/Flow Control/Loop.cpp"
+
+CMakeFiles/main7.dir/Flow_Control/Loop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main7.dir/Flow_Control/Loop.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Flow Control/Loop.cpp" > CMakeFiles/main7.dir/Flow_Control/Loop.cpp.i
+
+CMakeFiles/main7.dir/Flow_Control/Loop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main7.dir/Flow_Control/Loop.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Flow Control/Loop.cpp" -o CMakeFiles/main7.dir/Flow_Control/Loop.cpp.s
 
 # Object files for target main7
 main7_OBJECTS = \
-"CMakeFiles/main7.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o"
+"CMakeFiles/main7.dir/Flow_Control/Condition_and_Branch.cpp.o" \
+"CMakeFiles/main7.dir/Flow_Control/Flow_Control.cpp.o" \
+"CMakeFiles/main7.dir/Flow_Control/Input_and_Output.cpp.o" \
+"CMakeFiles/main7.dir/Flow_Control/Loop.cpp.o"
 
 # External object files for target main7
 main7_EXTERNAL_OBJECTS =
 
-main7: CMakeFiles/main7.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o
+main7: CMakeFiles/main7.dir/Flow_Control/Condition_and_Branch.cpp.o
+main7: CMakeFiles/main7.dir/Flow_Control/Flow_Control.cpp.o
+main7: CMakeFiles/main7.dir/Flow_Control/Input_and_Output.cpp.o
+main7: CMakeFiles/main7.dir/Flow_Control/Loop.cpp.o
 main7: CMakeFiles/main7.dir/build.make
 main7: CMakeFiles/main7.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main7"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main7.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/shuochen/C++Prime/Copy control/Copy/Copy Assignment Operator.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main1.dir/Copy_control/Copy/Copy_Assignment_Operator.cpp.o"
+  "/Users/shuochen/C++Prime/Copy control/Copy/Copy Constructor.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main1.dir/Copy_control/Copy/Copy_Constructor.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

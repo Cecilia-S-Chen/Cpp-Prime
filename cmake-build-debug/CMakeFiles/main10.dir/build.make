@@ -77,30 +77,60 @@ include CMakeFiles/main10.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main10.dir/flags.make
 
-CMakeFiles/main10.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o: CMakeFiles/main10.dir/flags.make
-CMakeFiles/main10.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o: ../OOP/Copy\ Control/Copy\ Control\ And\ Inheritance.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main10.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main10.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o -c "/Users/shuochen/C++Prime/OOP/Copy Control/Copy Control And Inheritance.cpp"
+CMakeFiles/main10.dir/OverloadAndConvertion/ClassTypeConversion.cpp.o: CMakeFiles/main10.dir/flags.make
+CMakeFiles/main10.dir/OverloadAndConvertion/ClassTypeConversion.cpp.o: ../OverloadAndConvertion/ClassTypeConversion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main10.dir/OverloadAndConvertion/ClassTypeConversion.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main10.dir/OverloadAndConvertion/ClassTypeConversion.cpp.o -c /Users/shuochen/C++Prime/OverloadAndConvertion/ClassTypeConversion.cpp
 
-CMakeFiles/main10.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main10.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/OOP/Copy Control/Copy Control And Inheritance.cpp" > CMakeFiles/main10.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.i
+CMakeFiles/main10.dir/OverloadAndConvertion/ClassTypeConversion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main10.dir/OverloadAndConvertion/ClassTypeConversion.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shuochen/C++Prime/OverloadAndConvertion/ClassTypeConversion.cpp > CMakeFiles/main10.dir/OverloadAndConvertion/ClassTypeConversion.cpp.i
 
-CMakeFiles/main10.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main10.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/OOP/Copy Control/Copy Control And Inheritance.cpp" -o CMakeFiles/main10.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.s
+CMakeFiles/main10.dir/OverloadAndConvertion/ClassTypeConversion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main10.dir/OverloadAndConvertion/ClassTypeConversion.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shuochen/C++Prime/OverloadAndConvertion/ClassTypeConversion.cpp -o CMakeFiles/main10.dir/OverloadAndConvertion/ClassTypeConversion.cpp.s
+
+CMakeFiles/main10.dir/OverloadAndConvertion/FunctionCallOperator.cpp.o: CMakeFiles/main10.dir/flags.make
+CMakeFiles/main10.dir/OverloadAndConvertion/FunctionCallOperator.cpp.o: ../OverloadAndConvertion/FunctionCallOperator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main10.dir/OverloadAndConvertion/FunctionCallOperator.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main10.dir/OverloadAndConvertion/FunctionCallOperator.cpp.o -c /Users/shuochen/C++Prime/OverloadAndConvertion/FunctionCallOperator.cpp
+
+CMakeFiles/main10.dir/OverloadAndConvertion/FunctionCallOperator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main10.dir/OverloadAndConvertion/FunctionCallOperator.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shuochen/C++Prime/OverloadAndConvertion/FunctionCallOperator.cpp > CMakeFiles/main10.dir/OverloadAndConvertion/FunctionCallOperator.cpp.i
+
+CMakeFiles/main10.dir/OverloadAndConvertion/FunctionCallOperator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main10.dir/OverloadAndConvertion/FunctionCallOperator.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shuochen/C++Prime/OverloadAndConvertion/FunctionCallOperator.cpp -o CMakeFiles/main10.dir/OverloadAndConvertion/FunctionCallOperator.cpp.s
+
+CMakeFiles/main10.dir/OverloadAndConvertion/OverLoadOperator.cpp.o: CMakeFiles/main10.dir/flags.make
+CMakeFiles/main10.dir/OverloadAndConvertion/OverLoadOperator.cpp.o: ../OverloadAndConvertion/OverLoadOperator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main10.dir/OverloadAndConvertion/OverLoadOperator.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main10.dir/OverloadAndConvertion/OverLoadOperator.cpp.o -c /Users/shuochen/C++Prime/OverloadAndConvertion/OverLoadOperator.cpp
+
+CMakeFiles/main10.dir/OverloadAndConvertion/OverLoadOperator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main10.dir/OverloadAndConvertion/OverLoadOperator.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shuochen/C++Prime/OverloadAndConvertion/OverLoadOperator.cpp > CMakeFiles/main10.dir/OverloadAndConvertion/OverLoadOperator.cpp.i
+
+CMakeFiles/main10.dir/OverloadAndConvertion/OverLoadOperator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main10.dir/OverloadAndConvertion/OverLoadOperator.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shuochen/C++Prime/OverloadAndConvertion/OverLoadOperator.cpp -o CMakeFiles/main10.dir/OverloadAndConvertion/OverLoadOperator.cpp.s
 
 # Object files for target main10
 main10_OBJECTS = \
-"CMakeFiles/main10.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o"
+"CMakeFiles/main10.dir/OverloadAndConvertion/ClassTypeConversion.cpp.o" \
+"CMakeFiles/main10.dir/OverloadAndConvertion/FunctionCallOperator.cpp.o" \
+"CMakeFiles/main10.dir/OverloadAndConvertion/OverLoadOperator.cpp.o"
 
 # External object files for target main10
 main10_EXTERNAL_OBJECTS =
 
-main10: CMakeFiles/main10.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o
+main10: CMakeFiles/main10.dir/OverloadAndConvertion/ClassTypeConversion.cpp.o
+main10: CMakeFiles/main10.dir/OverloadAndConvertion/FunctionCallOperator.cpp.o
+main10: CMakeFiles/main10.dir/OverloadAndConvertion/OverLoadOperator.cpp.o
 main10: CMakeFiles/main10.dir/build.make
 main10: CMakeFiles/main10.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable main10"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main10.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

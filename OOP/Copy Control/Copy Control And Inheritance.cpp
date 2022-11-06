@@ -13,13 +13,13 @@ using namespace std;
 
 class B {
 public:
-    B();
+    B() {};
     B(const B&) = delete;
 };
 
 class D : public B {};
 
-int main() {
+int main1() {
     D d;// 正确：D的合成默认构造函数使用B的默认构造函数
     // D d2(d); // 错误：D的合成拷贝构造函数是被删除的
     // 错误：因为B已经定义了拷贝构造函数，所以B的合成的默认移动构造函数会被定义为删除，D的合成的默认移动构造函数也会被删除。因为父类是不可移动的
@@ -39,10 +39,14 @@ int main() {
 
 class Base {
 public:
-    Base& operator=(const Base&);
+    Base& operator=(const Base &rhs);
 private:
     int mem_b;
 };
+
+Base &Base::operator=(const Base &rhs) {
+    return const_cast<Base&>(rhs);
+}
 
 class Derive : public Base {
 public:

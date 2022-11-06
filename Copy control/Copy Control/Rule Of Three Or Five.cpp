@@ -1,4 +1,6 @@
-
+#include <iostream>
+#include <string>
+using namespace std;
 /*
  * 三五法则：
  * 核心：用来管理动态内存！！！
@@ -18,7 +20,9 @@ class HasPtr {
 public:
     HasPtr(const string& s = string()): ps(new string(s)), i(0) {}
     HasPtr(HasPtr& other) : ps(other.ps), i(other.i) {}
-    ~HasPtr() {delete ps};
+    ~HasPtr() {delete ps;};
+
+    HasPtr f(HasPtr hp);
 
 private:
     string *ps;
@@ -32,7 +36,7 @@ HasPtr HasPtr::f(HasPtr hp) {
 
 
 
-int main() {
+int main1() {
     HasPtr p1("Some Values");
     HasPtr p2("Ohter Values");
     p1.f(p2); //当f结束时，p2.ps指向的内存被释放

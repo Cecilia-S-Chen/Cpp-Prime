@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shuochen/C++Prime/OverloadAndConvertion/FunctionCallOperator.cpp
+iostream
+-
+functional
+-
+
+/Users/shuochen/C++Prime/OverloadAndConvertion/OverLoadOperator.cpp
+iostream
+-
+

@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/shuochen/C++Prime/Dynamic Memory/allocator.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main6.dir/Dynamic_Memory/allocator.cpp.o"
+  "/Users/shuochen/C++Prime/Dynamic Memory/Dynamic Memory Example.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main6.dir/Dynamic_Memory/Dynamic_Memory_Example.cpp.o"
+  "/Users/shuochen/C++Prime/Dynamic Memory/Shared Ptr.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr.cpp.o"
+  "/Users/shuochen/C++Prime/Dynamic Memory/Shared Ptr And New.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

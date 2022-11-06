@@ -22,7 +22,8 @@ class Base {
 private:
     int mem_b;
 };
-class Derive {
+
+class Derive : public Base {
 public:
     /*
      * using语句等同于

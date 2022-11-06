@@ -77,30 +77,60 @@ include CMakeFiles/main6.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main6.dir/flags.make
 
-CMakeFiles/main6.dir/Dynamic_Memory/allocator.cpp.o: CMakeFiles/main6.dir/flags.make
-CMakeFiles/main6.dir/Dynamic_Memory/allocator.cpp.o: ../Dynamic\ Memory/allocator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main6.dir/Dynamic_Memory/allocator.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main6.dir/Dynamic_Memory/allocator.cpp.o -c "/Users/shuochen/C++Prime/Dynamic Memory/allocator.cpp"
+CMakeFiles/main6.dir/Dynamic_Memory/Dynamic_Memory_Example.cpp.o: CMakeFiles/main6.dir/flags.make
+CMakeFiles/main6.dir/Dynamic_Memory/Dynamic_Memory_Example.cpp.o: ../Dynamic\ Memory/Dynamic\ Memory\ Example.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main6.dir/Dynamic_Memory/Dynamic_Memory_Example.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main6.dir/Dynamic_Memory/Dynamic_Memory_Example.cpp.o -c "/Users/shuochen/C++Prime/Dynamic Memory/Dynamic Memory Example.cpp"
 
-CMakeFiles/main6.dir/Dynamic_Memory/allocator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main6.dir/Dynamic_Memory/allocator.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Dynamic Memory/allocator.cpp" > CMakeFiles/main6.dir/Dynamic_Memory/allocator.cpp.i
+CMakeFiles/main6.dir/Dynamic_Memory/Dynamic_Memory_Example.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main6.dir/Dynamic_Memory/Dynamic_Memory_Example.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Dynamic Memory/Dynamic Memory Example.cpp" > CMakeFiles/main6.dir/Dynamic_Memory/Dynamic_Memory_Example.cpp.i
 
-CMakeFiles/main6.dir/Dynamic_Memory/allocator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main6.dir/Dynamic_Memory/allocator.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Dynamic Memory/allocator.cpp" -o CMakeFiles/main6.dir/Dynamic_Memory/allocator.cpp.s
+CMakeFiles/main6.dir/Dynamic_Memory/Dynamic_Memory_Example.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main6.dir/Dynamic_Memory/Dynamic_Memory_Example.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Dynamic Memory/Dynamic Memory Example.cpp" -o CMakeFiles/main6.dir/Dynamic_Memory/Dynamic_Memory_Example.cpp.s
+
+CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr.cpp.o: CMakeFiles/main6.dir/flags.make
+CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr.cpp.o: ../Dynamic\ Memory/Shared\ Ptr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr.cpp.o -c "/Users/shuochen/C++Prime/Dynamic Memory/Shared Ptr.cpp"
+
+CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Dynamic Memory/Shared Ptr.cpp" > CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr.cpp.i
+
+CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Dynamic Memory/Shared Ptr.cpp" -o CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr.cpp.s
+
+CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.o: CMakeFiles/main6.dir/flags.make
+CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.o: ../Dynamic\ Memory/Shared\ Ptr\ And\ New.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.o -c "/Users/shuochen/C++Prime/Dynamic Memory/Shared Ptr And New.cpp"
+
+CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Dynamic Memory/Shared Ptr And New.cpp" > CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.i
+
+CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Dynamic Memory/Shared Ptr And New.cpp" -o CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.s
 
 # Object files for target main6
 main6_OBJECTS = \
-"CMakeFiles/main6.dir/Dynamic_Memory/allocator.cpp.o"
+"CMakeFiles/main6.dir/Dynamic_Memory/Dynamic_Memory_Example.cpp.o" \
+"CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr.cpp.o" \
+"CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.o"
 
 # External object files for target main6
 main6_EXTERNAL_OBJECTS =
 
-main6: CMakeFiles/main6.dir/Dynamic_Memory/allocator.cpp.o
+main6: CMakeFiles/main6.dir/Dynamic_Memory/Dynamic_Memory_Example.cpp.o
+main6: CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr.cpp.o
+main6: CMakeFiles/main6.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.o
 main6: CMakeFiles/main6.dir/build.make
 main6: CMakeFiles/main6.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable main6"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main6.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

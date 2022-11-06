@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/shuochen/C++Prime/Copy control/Move/Rvalue Reference.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main8.dir/Copy_control/Move/Rvalue_Reference.cpp.o"
+  "/Users/shuochen/C++Prime/OOP/Copy Control/Constructor Inheritance.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main8.dir/OOP/Copy_Control/Constructor_Inheritance.cpp.o"
+  "/Users/shuochen/C++Prime/OOP/Copy Control/Copy Control And Inheritance.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main8.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o"
+  "/Users/shuochen/C++Prime/OOP/Copy Control/Virtual Deconstructor.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main8.dir/OOP/Copy_Control/Virtual_Deconstructor.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

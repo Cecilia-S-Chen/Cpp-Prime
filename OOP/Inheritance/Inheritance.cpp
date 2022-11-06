@@ -26,7 +26,7 @@ using namespace std;
  *      派生类只能调用public和protected虚函数，不能调用private虚函数
  */
 
-class Quote {
+class Quote0 {
 public:
     friend class Pal;
     virtual double net_price(size_t n) const {return n * price;}
@@ -37,7 +37,7 @@ protected:
 };
 
 
-class Bulk_quote : public Quote {
+class Bulk_quote0 : public Quote0 {
 public:
     double net_price(size_t n) const override;
 
@@ -46,6 +46,10 @@ private:
     double discount= 0.0;
 
 };
+
+double Bulk_quote0::net_price(size_t n) const {
+    return Quote0::net_price(n);
+}
 
 /*
  * 友元与继承：
@@ -56,18 +60,18 @@ private:
  */
 class Pal {
 public:
-    int f(Quote q) {return q.price;} //正确：基类友元访问基类private成员
-    int f1(Bulk_quote bulkQuote) {return bulkQuote.min_qty;} //错误：Pal不是Bulk_quote的友元，不能访问其私有成员
+    int f(Quote0 q) {return q.price;} //正确：基类友元访问基类private成员
+    // int f1(Bulk_quote bulkQuote) {return bulkQuote.min_qty;} //错误：Pal不是Bulk_quote的友元，不能访问其私有成员
     /*
      * 正确：Pal时Quote友元，可以访问Bulk_quote中Quote的私有部分
      *      对派生类和友元，派生类访问列表不起作用，类中的访问符号确定了对派生类和友元的可见性（每个类负责控制自己成员的访问权限）
      */
-    int f2(Bulk_quote bulkQuote) {return bulkQuote.price;}
+    int f2(Bulk_quote0 bulkQuote) {return bulkQuote.price;}
 };
 
-int main() {
-    Bulk_quote bulkQuote;
-    Quote *item = &bulkQuote;
+int main1() {
+    Bulk_quote0 bulkQuote;
+    Quote0 *item = &bulkQuote;
 /*
  *
  * 静态类型：

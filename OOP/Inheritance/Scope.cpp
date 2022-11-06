@@ -38,7 +38,7 @@ protected:
     int mem; // 隐藏基类中的mem；
 };
 
-int main() {
+int main2() {
     /*
      * 名字查找：
      * （1）核心：只根据名字查找，不care形参列表
@@ -48,7 +48,7 @@ int main() {
     Disc_quote discQuote;
     Quote* quote = &discQuote;
     discQuote.discount_policy(); // 正确；discQuote的静态类型是Disc_quote
-    quote->discount_policy(); // 错误：quote的静态类型是Quote，静态类型不包含discount_policy
+    // quote->discount_policy(); // 错误：quote的静态类型是Quote，静态类型不包含discount_policy
 
     /*
      * override与overload:
@@ -69,7 +69,7 @@ int main() {
      *  （4）要求；基类函数的每个重载实例，派生类中都必须是可访问的
      */
     discQuote.get_mem1(); // 正确，通过名字隐藏，调用Disc_Quote的成员get_mem1();
-    discQuote.get_mem1(1); // 错误，名字隐藏，子类看不到基类的get_mem1(int i);
+    // discQuote.get_mem1(1); // 错误，名字隐藏，子类看不到基类的get_mem1(int i);
     discQuote.Quote::get_mem1(1); // 正确：通过作用域运算符，覆盖名字隐藏，使派生类可以获取到基类的同名函数！
     discQuote.get_mem2(); // 正确：discQuote使用派生类override的get_mem2()
     discQuote.get_mem2(0,1.1); // 正确：通过using声明，将Quote中重载的get_mem2实例添加到派生类的作用域中！避免了名字隐藏！

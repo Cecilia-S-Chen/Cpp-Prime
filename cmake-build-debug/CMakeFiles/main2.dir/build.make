@@ -77,30 +77,90 @@ include CMakeFiles/main2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main2.dir/flags.make
 
-CMakeFiles/main2.dir/OOP/Inheritance/test.cpp.o: CMakeFiles/main2.dir/flags.make
-CMakeFiles/main2.dir/OOP/Inheritance/test.cpp.o: ../OOP/Inheritance/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main2.dir/OOP/Inheritance/test.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.dir/OOP/Inheritance/test.cpp.o -c /Users/shuochen/C++Prime/OOP/Inheritance/test.cpp
+CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.o: CMakeFiles/main2.dir/flags.make
+CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.o: ../Copy\ control/Copy\ Control/Class\ Act\ As\ Ptr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.o -c "/Users/shuochen/C++Prime/Copy control/Copy Control/Class Act As Ptr.cpp"
 
-CMakeFiles/main2.dir/OOP/Inheritance/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main2.dir/OOP/Inheritance/test.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shuochen/C++Prime/OOP/Inheritance/test.cpp > CMakeFiles/main2.dir/OOP/Inheritance/test.cpp.i
+CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Copy control/Copy Control/Class Act As Ptr.cpp" > CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.i
 
-CMakeFiles/main2.dir/OOP/Inheritance/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main2.dir/OOP/Inheritance/test.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shuochen/C++Prime/OOP/Inheritance/test.cpp -o CMakeFiles/main2.dir/OOP/Inheritance/test.cpp.s
+CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Copy control/Copy Control/Class Act As Ptr.cpp" -o CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.s
+
+CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Value.cpp.o: CMakeFiles/main2.dir/flags.make
+CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Value.cpp.o: ../Copy\ control/Copy\ Control/Class\ Act\ As\ Value.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Value.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Value.cpp.o -c "/Users/shuochen/C++Prime/Copy control/Copy Control/Class Act As Value.cpp"
+
+CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Value.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Value.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Copy control/Copy Control/Class Act As Value.cpp" > CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Value.cpp.i
+
+CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Value.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Value.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Copy control/Copy Control/Class Act As Value.cpp" -o CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Value.cpp.s
+
+CMakeFiles/main2.dir/Copy_control/Copy_Control/Copy_Control_Example.cpp.o: CMakeFiles/main2.dir/flags.make
+CMakeFiles/main2.dir/Copy_control/Copy_Control/Copy_Control_Example.cpp.o: ../Copy\ control/Copy\ Control/Copy\ Control\ Example.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main2.dir/Copy_control/Copy_Control/Copy_Control_Example.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.dir/Copy_control/Copy_Control/Copy_Control_Example.cpp.o -c "/Users/shuochen/C++Prime/Copy control/Copy Control/Copy Control Example.cpp"
+
+CMakeFiles/main2.dir/Copy_control/Copy_Control/Copy_Control_Example.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main2.dir/Copy_control/Copy_Control/Copy_Control_Example.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Copy control/Copy Control/Copy Control Example.cpp" > CMakeFiles/main2.dir/Copy_control/Copy_Control/Copy_Control_Example.cpp.i
+
+CMakeFiles/main2.dir/Copy_control/Copy_Control/Copy_Control_Example.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main2.dir/Copy_control/Copy_Control/Copy_Control_Example.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Copy control/Copy Control/Copy Control Example.cpp" -o CMakeFiles/main2.dir/Copy_control/Copy_Control/Copy_Control_Example.cpp.s
+
+CMakeFiles/main2.dir/Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.o: CMakeFiles/main2.dir/flags.make
+CMakeFiles/main2.dir/Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.o: ../Copy\ control/Copy\ Control/Rule\ Of\ Three\ Or\ Five.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main2.dir/Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.dir/Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.o -c "/Users/shuochen/C++Prime/Copy control/Copy Control/Rule Of Three Or Five.cpp"
+
+CMakeFiles/main2.dir/Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main2.dir/Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Copy control/Copy Control/Rule Of Three Or Five.cpp" > CMakeFiles/main2.dir/Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.i
+
+CMakeFiles/main2.dir/Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main2.dir/Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Copy control/Copy Control/Rule Of Three Or Five.cpp" -o CMakeFiles/main2.dir/Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.s
+
+CMakeFiles/main2.dir/Copy_control/Copy_Control/Swap.cpp.o: CMakeFiles/main2.dir/flags.make
+CMakeFiles/main2.dir/Copy_control/Copy_Control/Swap.cpp.o: ../Copy\ control/Copy\ Control/Swap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main2.dir/Copy_control/Copy_Control/Swap.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main2.dir/Copy_control/Copy_Control/Swap.cpp.o -c "/Users/shuochen/C++Prime/Copy control/Copy Control/Swap.cpp"
+
+CMakeFiles/main2.dir/Copy_control/Copy_Control/Swap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main2.dir/Copy_control/Copy_Control/Swap.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Copy control/Copy Control/Swap.cpp" > CMakeFiles/main2.dir/Copy_control/Copy_Control/Swap.cpp.i
+
+CMakeFiles/main2.dir/Copy_control/Copy_Control/Swap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main2.dir/Copy_control/Copy_Control/Swap.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Copy control/Copy Control/Swap.cpp" -o CMakeFiles/main2.dir/Copy_control/Copy_Control/Swap.cpp.s
 
 # Object files for target main2
 main2_OBJECTS = \
-"CMakeFiles/main2.dir/OOP/Inheritance/test.cpp.o"
+"CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.o" \
+"CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Value.cpp.o" \
+"CMakeFiles/main2.dir/Copy_control/Copy_Control/Copy_Control_Example.cpp.o" \
+"CMakeFiles/main2.dir/Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.o" \
+"CMakeFiles/main2.dir/Copy_control/Copy_Control/Swap.cpp.o"
 
 # External object files for target main2
 main2_EXTERNAL_OBJECTS =
 
-main2: CMakeFiles/main2.dir/OOP/Inheritance/test.cpp.o
+main2: CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Ptr.cpp.o
+main2: CMakeFiles/main2.dir/Copy_control/Copy_Control/Class_Act_As_Value.cpp.o
+main2: CMakeFiles/main2.dir/Copy_control/Copy_Control/Copy_Control_Example.cpp.o
+main2: CMakeFiles/main2.dir/Copy_control/Copy_Control/Rule_Of_Three_Or_Five.cpp.o
+main2: CMakeFiles/main2.dir/Copy_control/Copy_Control/Swap.cpp.o
 main2: CMakeFiles/main2.dir/build.make
 main2: CMakeFiles/main2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable main2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

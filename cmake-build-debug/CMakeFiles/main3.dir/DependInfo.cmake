@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/shuochen/C++Prime/OOP/Inheritance/Visability.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main3.dir/OOP/Inheritance/Visability.cpp.o"
+  "/Users/shuochen/C++Prime/Copy control/Dynamic Memory Management/Dynamic Memory Management.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main3.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

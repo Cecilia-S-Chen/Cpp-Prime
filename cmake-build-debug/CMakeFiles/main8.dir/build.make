@@ -77,30 +77,60 @@ include CMakeFiles/main8.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main8.dir/flags.make
 
-CMakeFiles/main8.dir/Copy_control/Move/Rvalue_Reference.cpp.o: CMakeFiles/main8.dir/flags.make
-CMakeFiles/main8.dir/Copy_control/Move/Rvalue_Reference.cpp.o: ../Copy\ control/Move/Rvalue\ Reference.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main8.dir/Copy_control/Move/Rvalue_Reference.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main8.dir/Copy_control/Move/Rvalue_Reference.cpp.o -c "/Users/shuochen/C++Prime/Copy control/Move/Rvalue Reference.cpp"
+CMakeFiles/main8.dir/OOP/Copy_Control/Constructor_Inheritance.cpp.o: CMakeFiles/main8.dir/flags.make
+CMakeFiles/main8.dir/OOP/Copy_Control/Constructor_Inheritance.cpp.o: ../OOP/Copy\ Control/Constructor\ Inheritance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main8.dir/OOP/Copy_Control/Constructor_Inheritance.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main8.dir/OOP/Copy_Control/Constructor_Inheritance.cpp.o -c "/Users/shuochen/C++Prime/OOP/Copy Control/Constructor Inheritance.cpp"
 
-CMakeFiles/main8.dir/Copy_control/Move/Rvalue_Reference.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main8.dir/Copy_control/Move/Rvalue_Reference.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Copy control/Move/Rvalue Reference.cpp" > CMakeFiles/main8.dir/Copy_control/Move/Rvalue_Reference.cpp.i
+CMakeFiles/main8.dir/OOP/Copy_Control/Constructor_Inheritance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main8.dir/OOP/Copy_Control/Constructor_Inheritance.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/OOP/Copy Control/Constructor Inheritance.cpp" > CMakeFiles/main8.dir/OOP/Copy_Control/Constructor_Inheritance.cpp.i
 
-CMakeFiles/main8.dir/Copy_control/Move/Rvalue_Reference.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main8.dir/Copy_control/Move/Rvalue_Reference.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Copy control/Move/Rvalue Reference.cpp" -o CMakeFiles/main8.dir/Copy_control/Move/Rvalue_Reference.cpp.s
+CMakeFiles/main8.dir/OOP/Copy_Control/Constructor_Inheritance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main8.dir/OOP/Copy_Control/Constructor_Inheritance.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/OOP/Copy Control/Constructor Inheritance.cpp" -o CMakeFiles/main8.dir/OOP/Copy_Control/Constructor_Inheritance.cpp.s
+
+CMakeFiles/main8.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o: CMakeFiles/main8.dir/flags.make
+CMakeFiles/main8.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o: ../OOP/Copy\ Control/Copy\ Control\ And\ Inheritance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main8.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main8.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o -c "/Users/shuochen/C++Prime/OOP/Copy Control/Copy Control And Inheritance.cpp"
+
+CMakeFiles/main8.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main8.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/OOP/Copy Control/Copy Control And Inheritance.cpp" > CMakeFiles/main8.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.i
+
+CMakeFiles/main8.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main8.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/OOP/Copy Control/Copy Control And Inheritance.cpp" -o CMakeFiles/main8.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.s
+
+CMakeFiles/main8.dir/OOP/Copy_Control/Virtual_Deconstructor.cpp.o: CMakeFiles/main8.dir/flags.make
+CMakeFiles/main8.dir/OOP/Copy_Control/Virtual_Deconstructor.cpp.o: ../OOP/Copy\ Control/Virtual\ Deconstructor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main8.dir/OOP/Copy_Control/Virtual_Deconstructor.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main8.dir/OOP/Copy_Control/Virtual_Deconstructor.cpp.o -c "/Users/shuochen/C++Prime/OOP/Copy Control/Virtual Deconstructor.cpp"
+
+CMakeFiles/main8.dir/OOP/Copy_Control/Virtual_Deconstructor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main8.dir/OOP/Copy_Control/Virtual_Deconstructor.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/OOP/Copy Control/Virtual Deconstructor.cpp" > CMakeFiles/main8.dir/OOP/Copy_Control/Virtual_Deconstructor.cpp.i
+
+CMakeFiles/main8.dir/OOP/Copy_Control/Virtual_Deconstructor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main8.dir/OOP/Copy_Control/Virtual_Deconstructor.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/OOP/Copy Control/Virtual Deconstructor.cpp" -o CMakeFiles/main8.dir/OOP/Copy_Control/Virtual_Deconstructor.cpp.s
 
 # Object files for target main8
 main8_OBJECTS = \
-"CMakeFiles/main8.dir/Copy_control/Move/Rvalue_Reference.cpp.o"
+"CMakeFiles/main8.dir/OOP/Copy_Control/Constructor_Inheritance.cpp.o" \
+"CMakeFiles/main8.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o" \
+"CMakeFiles/main8.dir/OOP/Copy_Control/Virtual_Deconstructor.cpp.o"
 
 # External object files for target main8
 main8_EXTERNAL_OBJECTS =
 
-main8: CMakeFiles/main8.dir/Copy_control/Move/Rvalue_Reference.cpp.o
+main8: CMakeFiles/main8.dir/OOP/Copy_Control/Constructor_Inheritance.cpp.o
+main8: CMakeFiles/main8.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o
+main8: CMakeFiles/main8.dir/OOP/Copy_Control/Virtual_Deconstructor.cpp.o
 main8: CMakeFiles/main8.dir/build.make
 main8: CMakeFiles/main8.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable main8"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main8.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

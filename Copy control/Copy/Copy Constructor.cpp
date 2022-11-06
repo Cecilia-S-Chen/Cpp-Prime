@@ -26,7 +26,7 @@ using namespace std;
 class Sale_Data {
 public:
     Sale_Data() = default;
-    Sale_Data(cont Sale_Data &);
+    Sale_Data(const Sale_Data &);
 
 private:
     string bookNo;
@@ -44,7 +44,7 @@ Sale_Data::Sale_Data(const Sale_Data &orig ) :
  *
  */
 
- string name(10, "C"); // 直接初始化
+ string name; // 直接初始化
  string name2(name); //直接初始化
  string nameCopy = name; //拷贝初始化
- string = string(10, "A"); //拷贝初始化
+ string nameCopy2 = string("A"); //拷贝初始化

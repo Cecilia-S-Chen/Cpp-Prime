@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main10.dir/OOP/Copy_Control/Copy_Control_And_Inheritance.cpp.o"
+  "CMakeFiles/main10.dir/OverloadAndConvertion/ClassTypeConversion.cpp.o"
+  "CMakeFiles/main10.dir/OverloadAndConvertion/FunctionCallOperator.cpp.o"
+  "CMakeFiles/main10.dir/OverloadAndConvertion/OverLoadOperator.cpp.o"
   "main10"
   "main10.pdb"
 )

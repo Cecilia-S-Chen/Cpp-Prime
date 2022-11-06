@@ -77,30 +77,45 @@ include CMakeFiles/main12.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main12.dir/flags.make
 
-CMakeFiles/main12.dir/Class.cpp.o: CMakeFiles/main12.dir/flags.make
-CMakeFiles/main12.dir/Class.cpp.o: ../Class.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main12.dir/Class.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main12.dir/Class.cpp.o -c /Users/shuochen/C++Prime/Class.cpp
+CMakeFiles/main12.dir/Generic_Algorithm/Introduction.cpp.o: CMakeFiles/main12.dir/flags.make
+CMakeFiles/main12.dir/Generic_Algorithm/Introduction.cpp.o: ../Generic\ Algorithm/Introduction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main12.dir/Generic_Algorithm/Introduction.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main12.dir/Generic_Algorithm/Introduction.cpp.o -c "/Users/shuochen/C++Prime/Generic Algorithm/Introduction.cpp"
 
-CMakeFiles/main12.dir/Class.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main12.dir/Class.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shuochen/C++Prime/Class.cpp > CMakeFiles/main12.dir/Class.cpp.i
+CMakeFiles/main12.dir/Generic_Algorithm/Introduction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main12.dir/Generic_Algorithm/Introduction.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Generic Algorithm/Introduction.cpp" > CMakeFiles/main12.dir/Generic_Algorithm/Introduction.cpp.i
 
-CMakeFiles/main12.dir/Class.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main12.dir/Class.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shuochen/C++Prime/Class.cpp -o CMakeFiles/main12.dir/Class.cpp.s
+CMakeFiles/main12.dir/Generic_Algorithm/Introduction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main12.dir/Generic_Algorithm/Introduction.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Generic Algorithm/Introduction.cpp" -o CMakeFiles/main12.dir/Generic_Algorithm/Introduction.cpp.s
+
+CMakeFiles/main12.dir/Generic_Algorithm/Iterator.cpp.o: CMakeFiles/main12.dir/flags.make
+CMakeFiles/main12.dir/Generic_Algorithm/Iterator.cpp.o: ../Generic\ Algorithm/Iterator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main12.dir/Generic_Algorithm/Iterator.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main12.dir/Generic_Algorithm/Iterator.cpp.o -c "/Users/shuochen/C++Prime/Generic Algorithm/Iterator.cpp"
+
+CMakeFiles/main12.dir/Generic_Algorithm/Iterator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main12.dir/Generic_Algorithm/Iterator.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Generic Algorithm/Iterator.cpp" > CMakeFiles/main12.dir/Generic_Algorithm/Iterator.cpp.i
+
+CMakeFiles/main12.dir/Generic_Algorithm/Iterator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main12.dir/Generic_Algorithm/Iterator.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Generic Algorithm/Iterator.cpp" -o CMakeFiles/main12.dir/Generic_Algorithm/Iterator.cpp.s
 
 # Object files for target main12
 main12_OBJECTS = \
-"CMakeFiles/main12.dir/Class.cpp.o"
+"CMakeFiles/main12.dir/Generic_Algorithm/Introduction.cpp.o" \
+"CMakeFiles/main12.dir/Generic_Algorithm/Iterator.cpp.o"
 
 # External object files for target main12
 main12_EXTERNAL_OBJECTS =
 
-main12: CMakeFiles/main12.dir/Class.cpp.o
+main12: CMakeFiles/main12.dir/Generic_Algorithm/Introduction.cpp.o
+main12: CMakeFiles/main12.dir/Generic_Algorithm/Iterator.cpp.o
 main12: CMakeFiles/main12.dir/build.make
 main12: CMakeFiles/main12.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main12"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main12"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main12.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

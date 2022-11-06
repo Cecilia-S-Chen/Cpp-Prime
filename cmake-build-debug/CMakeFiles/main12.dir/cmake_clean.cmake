@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main12.dir/Class.cpp.o"
+  "CMakeFiles/main12.dir/Generic_Algorithm/Introduction.cpp.o"
+  "CMakeFiles/main12.dir/Generic_Algorithm/Iterator.cpp.o"
   "main12"
   "main12.pdb"
 )

@@ -77,30 +77,90 @@ include CMakeFiles/main9.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main9.dir/flags.make
 
-CMakeFiles/main9.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o: CMakeFiles/main9.dir/flags.make
-CMakeFiles/main9.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o: ../Copy\ control/Move/Rvalue\ Reference\ for\ Class\ Member.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main9.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main9.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o -c "/Users/shuochen/C++Prime/Copy control/Move/Rvalue Reference for Class Member.cpp"
+CMakeFiles/main9.dir/OOP/Inheritance/Inheritance.cpp.o: CMakeFiles/main9.dir/flags.make
+CMakeFiles/main9.dir/OOP/Inheritance/Inheritance.cpp.o: ../OOP/Inheritance/Inheritance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main9.dir/OOP/Inheritance/Inheritance.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main9.dir/OOP/Inheritance/Inheritance.cpp.o -c /Users/shuochen/C++Prime/OOP/Inheritance/Inheritance.cpp
 
-CMakeFiles/main9.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main9.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/Copy control/Move/Rvalue Reference for Class Member.cpp" > CMakeFiles/main9.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.i
+CMakeFiles/main9.dir/OOP/Inheritance/Inheritance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main9.dir/OOP/Inheritance/Inheritance.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shuochen/C++Prime/OOP/Inheritance/Inheritance.cpp > CMakeFiles/main9.dir/OOP/Inheritance/Inheritance.cpp.i
 
-CMakeFiles/main9.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main9.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/Copy control/Move/Rvalue Reference for Class Member.cpp" -o CMakeFiles/main9.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.s
+CMakeFiles/main9.dir/OOP/Inheritance/Inheritance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main9.dir/OOP/Inheritance/Inheritance.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shuochen/C++Prime/OOP/Inheritance/Inheritance.cpp -o CMakeFiles/main9.dir/OOP/Inheritance/Inheritance.cpp.s
+
+CMakeFiles/main9.dir/OOP/Inheritance/Scope.cpp.o: CMakeFiles/main9.dir/flags.make
+CMakeFiles/main9.dir/OOP/Inheritance/Scope.cpp.o: ../OOP/Inheritance/Scope.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main9.dir/OOP/Inheritance/Scope.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main9.dir/OOP/Inheritance/Scope.cpp.o -c /Users/shuochen/C++Prime/OOP/Inheritance/Scope.cpp
+
+CMakeFiles/main9.dir/OOP/Inheritance/Scope.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main9.dir/OOP/Inheritance/Scope.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shuochen/C++Prime/OOP/Inheritance/Scope.cpp > CMakeFiles/main9.dir/OOP/Inheritance/Scope.cpp.i
+
+CMakeFiles/main9.dir/OOP/Inheritance/Scope.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main9.dir/OOP/Inheritance/Scope.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shuochen/C++Prime/OOP/Inheritance/Scope.cpp -o CMakeFiles/main9.dir/OOP/Inheritance/Scope.cpp.s
+
+CMakeFiles/main9.dir/OOP/Inheritance/test.cpp.o: CMakeFiles/main9.dir/flags.make
+CMakeFiles/main9.dir/OOP/Inheritance/test.cpp.o: ../OOP/Inheritance/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main9.dir/OOP/Inheritance/test.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main9.dir/OOP/Inheritance/test.cpp.o -c /Users/shuochen/C++Prime/OOP/Inheritance/test.cpp
+
+CMakeFiles/main9.dir/OOP/Inheritance/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main9.dir/OOP/Inheritance/test.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shuochen/C++Prime/OOP/Inheritance/test.cpp > CMakeFiles/main9.dir/OOP/Inheritance/test.cpp.i
+
+CMakeFiles/main9.dir/OOP/Inheritance/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main9.dir/OOP/Inheritance/test.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shuochen/C++Prime/OOP/Inheritance/test.cpp -o CMakeFiles/main9.dir/OOP/Inheritance/test.cpp.s
+
+CMakeFiles/main9.dir/OOP/Inheritance/Virtual_Function.cpp.o: CMakeFiles/main9.dir/flags.make
+CMakeFiles/main9.dir/OOP/Inheritance/Virtual_Function.cpp.o: ../OOP/Inheritance/Virtual\ Function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main9.dir/OOP/Inheritance/Virtual_Function.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main9.dir/OOP/Inheritance/Virtual_Function.cpp.o -c "/Users/shuochen/C++Prime/OOP/Inheritance/Virtual Function.cpp"
+
+CMakeFiles/main9.dir/OOP/Inheritance/Virtual_Function.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main9.dir/OOP/Inheritance/Virtual_Function.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/shuochen/C++Prime/OOP/Inheritance/Virtual Function.cpp" > CMakeFiles/main9.dir/OOP/Inheritance/Virtual_Function.cpp.i
+
+CMakeFiles/main9.dir/OOP/Inheritance/Virtual_Function.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main9.dir/OOP/Inheritance/Virtual_Function.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/shuochen/C++Prime/OOP/Inheritance/Virtual Function.cpp" -o CMakeFiles/main9.dir/OOP/Inheritance/Virtual_Function.cpp.s
+
+CMakeFiles/main9.dir/OOP/Inheritance/Visability.cpp.o: CMakeFiles/main9.dir/flags.make
+CMakeFiles/main9.dir/OOP/Inheritance/Visability.cpp.o: ../OOP/Inheritance/Visability.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main9.dir/OOP/Inheritance/Visability.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main9.dir/OOP/Inheritance/Visability.cpp.o -c /Users/shuochen/C++Prime/OOP/Inheritance/Visability.cpp
+
+CMakeFiles/main9.dir/OOP/Inheritance/Visability.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main9.dir/OOP/Inheritance/Visability.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shuochen/C++Prime/OOP/Inheritance/Visability.cpp > CMakeFiles/main9.dir/OOP/Inheritance/Visability.cpp.i
+
+CMakeFiles/main9.dir/OOP/Inheritance/Visability.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main9.dir/OOP/Inheritance/Visability.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shuochen/C++Prime/OOP/Inheritance/Visability.cpp -o CMakeFiles/main9.dir/OOP/Inheritance/Visability.cpp.s
 
 # Object files for target main9
 main9_OBJECTS = \
-"CMakeFiles/main9.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o"
+"CMakeFiles/main9.dir/OOP/Inheritance/Inheritance.cpp.o" \
+"CMakeFiles/main9.dir/OOP/Inheritance/Scope.cpp.o" \
+"CMakeFiles/main9.dir/OOP/Inheritance/test.cpp.o" \
+"CMakeFiles/main9.dir/OOP/Inheritance/Virtual_Function.cpp.o" \
+"CMakeFiles/main9.dir/OOP/Inheritance/Visability.cpp.o"
 
 # External object files for target main9
 main9_EXTERNAL_OBJECTS =
 
-main9: CMakeFiles/main9.dir/Copy_control/Move/Rvalue_Reference_for_Class_Member.cpp.o
+main9: CMakeFiles/main9.dir/OOP/Inheritance/Inheritance.cpp.o
+main9: CMakeFiles/main9.dir/OOP/Inheritance/Scope.cpp.o
+main9: CMakeFiles/main9.dir/OOP/Inheritance/test.cpp.o
+main9: CMakeFiles/main9.dir/OOP/Inheritance/Virtual_Function.cpp.o
+main9: CMakeFiles/main9.dir/OOP/Inheritance/Visability.cpp.o
 main9: CMakeFiles/main9.dir/build.make
 main9: CMakeFiles/main9.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable main9"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main9.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -38,7 +38,7 @@ decltype(intArray) *pArray; //decltype返回的是包含十个整数的数组，
 /*
  *
  */
-int main() {
+int main2() {
     cout << di << endl;
 }
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main3.dir/OOP/Inheritance/Visability.cpp.o"
+  "CMakeFiles/main3.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o"
   "main3"
   "main3.pdb"
 )

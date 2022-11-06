@@ -16,19 +16,19 @@ using namespace std;
  *  移动构造函数/移动赋值运算符：没有定义时，且没有定义拷贝构造函数/拷贝赋值运算符/析构函数时，系统就会自动生成！！
  */
 
-class Quote {
+class Quote1 {
 public:
-    virtual ~Quote() = default;
+    virtual ~Quote1() = default;
 };
 
-class Bulk_quote : public Quote {
+class Bulk_quote1 : public Quote1 {
 public:
-    ~Bulk_quote() {}
+    ~Bulk_quote1() {}
 };
 
-int main() {
-    Quote* itemP = new Quote;
-    delete itemP; // 调用Quote的析构函数
-    Quote* itemP = new Bulk_quote;
-    delete itemP; // 调用Buil_Quote的析构函数
+int main2() {
+    Quote1* itemP1 = new Quote1;
+    delete itemP1; // 调用Quote的析构函数
+    Quote1* itemP2 = new Bulk_quote1;
+    delete itemP2; // 调用Buil_Quote的析构函数
 }

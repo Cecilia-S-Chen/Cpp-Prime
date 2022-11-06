@@ -154,7 +154,7 @@ struct  Y {
     Y(Y& y) = default;
 };
 
-sturct hasY {
+struct hasY {
     /*
      * Y定义了拷贝构造函数，没有定义移动构造函数，则编译器会把移动构造函数定义为删除
      * hasY类有类成员mem，因为类Y的移动构造函数被定义为删除，所以hasY的移动构造函数也会被定义为删除

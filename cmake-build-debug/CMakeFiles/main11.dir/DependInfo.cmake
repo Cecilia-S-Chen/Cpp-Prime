@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/shuochen/C++Prime/Dynamic Memory/Shared Ptr And New.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main11.dir/Dynamic_Memory/Shared_Ptr_And_New.cpp.o"
+  "/Users/shuochen/C++Prime/STL/Array/Array.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main11.dir/STL/Array/Array.cpp.o"
+  "/Users/shuochen/C++Prime/STL/Forward List/forward list.cpp" "/Users/shuochen/C++Prime/cmake-build-debug/CMakeFiles/main11.dir/STL/Forward_List/forward_list.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

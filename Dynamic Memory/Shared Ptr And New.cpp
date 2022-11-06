@@ -27,10 +27,10 @@ void SharedPtrAndNewTest()
  *
  *
     * 定义和改变shared_ptr的其他方法
-        shared_ptr<T>p(q) p管理内置指针q所指向的对象，内置指针q必须指向new分配的内存，且能够转化成T类型
-        shared_ptr<T>p(u) p从unique_ptr u那里接管了对象的所有权
-        shared_ptr<T>p(q,d) p接管了内置指针q所指向的对象的所有权，q必须能转化为T*类型。p将使用可调用对象d来代替delete
-        shared_ptr<T> p(p2,d) p是shared_ptr p2的拷贝，唯一的区别就是p将用可调用的对象来代替delete
+        shared_ptr<T1>p(q) p管理内置指针q所指向的对象，内置指针q必须指向new分配的内存，且能够转化成T类型
+        shared_ptr<T1>p(u) p从unique_ptr u那里接管了对象的所有权
+        shared_ptr<T1>p(q,d) p接管了内置指针q所指向的对象的所有权，q必须能转化为T*类型。p将使用可调用对象d来代替delete
+        shared_ptr<T1> p(p2,d) p是shared_ptr p2的拷贝，唯一的区别就是p将用可调用的对象来代替delete
         p.reset() 若p是唯一指向其对象的shared_ptr，reset会释放此对象
         p.reset(q) 若传递了可选的参数内置指针q，会令p指向q，否则将p制成空
         p.reset(q,d) 若传递了可选的参数内置指针q，会令p指向q，否则将p制成空，若还传递了参数d，将会调用d而不是delete来释放q

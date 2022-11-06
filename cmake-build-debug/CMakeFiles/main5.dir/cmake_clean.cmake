@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main5.dir/Copy_control/Dynamic_Memory_Management/Dynamic_Memory_Management.cpp.o"
+  "CMakeFiles/main5.dir/Dynamic_Memory/Delete.cpp.o"
+  "CMakeFiles/main5.dir/Dynamic_Memory/New.cpp.o"
+  "CMakeFiles/main5.dir/Dynamic_Memory/allocator.cpp.o"
   "main5"
   "main5.pdb"
 )

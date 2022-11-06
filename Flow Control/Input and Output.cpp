@@ -4,11 +4,12 @@
 *iostream表示input output stream。cout表示程序的输出接口，cin表示输入接口
  */
 #include <iostream>
+using namespace std;
 
 void variable();//先声明函数，之后在main中才可以调用该函数
 void LogTest();
 
-int main()
+int main1()
 {
     //std::cout<<"Hello World!"<<std::endl;
     /*
@@ -21,6 +22,10 @@ int main()
 
 
     std::cin.get();//表示等待直到press enter
+}
 
+void LogTest()
+{
+    cout << "Test" <<endl;
 }
 

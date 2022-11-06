@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 /*
@@ -17,12 +18,12 @@ using namespace std;
 
 
  /*  3、动态内存开辟：
- *  （1）T *p = new T;
- *       通过 new 运算符来实现动态内存分配。会动态分配出一片大小为 sizeof(T) 字节的内存空间，并且将该内存空间的起始地址赋值给 p
- *  （2）T *p =new T[N];
+ *  （1）T1 *p = new T1;
+ *       通过 new 运算符来实现动态内存分配。会动态分配出一片大小为 sizeof(T1) 字节的内存空间，并且将该内存空间的起始地址赋值给 p
+ *  （2）T1 *p =new T1[N];
  *       用来动态分配一个任意大小的数组。
- *       T 是任意类型名，p 是类型为 T* 的指针，N 代表“元素个数”。
- *       这样的语句动态分配出 N × sizeof(T) 个字节的内存空间，这片空间的起始地址被赋值给 p。
+ *       T1 是任意类型名，p 是类型为 T1* 的指针，N 代表“元素个数”。
+ *       这样的语句动态分配出 N × sizeof(T1) 个字节的内存空间，这片空间的起始地址被赋值给 p。
   * （3）动态内存初始化：
   *     * 内置类型和组合类型没有默认初始化，动态分配对象的值是未定义的
   *     * 类类型使用默认构造函数进行初始化。、
@@ -37,9 +38,9 @@ void NewTest()
 {
     string* ps = new string; //类类型使用默认构造函数初始化，初始化为空string
     string* ps1 = new string(); // 值初始化 为空string
-    int *pi = new int; // 内置类型没有默认初始化，pi指向未初始化的int
-    int pi = new int(1024); //直接初始化
-    string *pi = new string(10,'9'); //使用构造函数初始化
+    int *pi1 = new int; // 内置类型没有默认初始化，pi指向未初始化的int
+    int *pi2 = new int(1024); //直接初始化
+    string *pi3 = new string(10,'9'); //使用构造函数初始化
     vector<int>* pv = new vector<int>{0,1,2,3,4,5}; //使用初始化列表
 
     int a = 10;
